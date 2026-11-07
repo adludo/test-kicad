@@ -22,6 +22,14 @@ When given an old schematic (or a description of one):
 - Do not leave “legacy holes” (e.g. pins 1, 2, 4 after deleting pin 3). Renumber the remaining connections sequentially.
 - Document remaps briefly when they affect external interfaces (connectors, harnesses, BOM-critical pinouts).
 
+### Single-view connected mapping
+
+- Always deliver an editable, single-sheet mapping containing every component and all electrical connections, plus a matching single-page PDF. Include this view alongside a grouped or label-based overview when both are useful.
+- Draw continuous wires between all pins on each net in this connected view. Repeated net labels, hierarchical links, buses without explicit members, and off-sheet connectors alone do not satisfy this requirement.
+- Arrange components in functional order, use orthogonal routing, and choose a sheet size that keeps pin IDs and component references readable when zoomed. Show junction dots only where wires connect; undotted crossings must remain electrically separate.
+- Preserve sequential pin IDs, balanced symbol sides, mechanical annotations, and the documented physical-contact remaps in every view. Retain intentionally unconnected pins explicitly; do not invent electrical pins for mechanical graphics.
+- Compare the connected view's exported netlist against the source and the overview after reversing documented remaps. Check that removing labels still leaves each net physically connected, that all components are included, and that routing introduces no shorts or orphaned pins. Report ERC outcomes, including inherited errors.
+
 ### Balanced sides on components
 
 - For multi-pin symbols and blocks, keep an **equivalent number of connections on each side** of the component (left vs right; or top vs bottom if that is the orientation used).
@@ -37,13 +45,14 @@ When given an old schematic (or a description of one):
 3. **Balance layout** — Place pins so each component has equal (or near-equal, for odd counts) connections per opposing side.
 4. **Redraw** — Rebuild in current KiCad schematic format with clean wiring, minimal crossings, and consistent grid.
 5. **Verify** — ERC-minded check: every old net accounted for, sequential IDs intact, sides balanced, no orphaned pins.
-6. **Report** — Summarize remaps, symbol changes, and any unresolved questions.
+6. **Connected mapping** — Deliver and validate the all-components, explicitly wired single-sheet view and its single-page PDF.
+7. **Report** — Summarize remaps, symbol changes, and any unresolved questions.
 
 ## Editing Standards
 
 - Use current KiCad schematic file conventions for this project; do not emit obsolete file formats unless asked.
 - Preserve reference designators when possible; if renumbering refs, keep a short old→new map.
-- Prefer named nets over long tangled wires when it clarifies the redesign.
+- Prefer named nets in the grouped overview when they clarify the redesign; also supply the explicitly wired single-view mapping required above.
 - Keep power symbols and global labels consistent across the sheet.
 - Match existing project libraries and footprint assignments when present; do not invent footprints without noting it.
 

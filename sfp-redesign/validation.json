@@ -9,5 +9,8 @@
   "balance": "all symbols have opposite-side counts differing by at most one",
   "erc_errors": 4,
   "erc_warnings": 0,
-  "erc_errors_inherited_from_source": true
+  "erc_errors_inherited_from_source": true,
+  "connected_view": "all 54 components plus shield, all 25 nets physically wired; identical netlist with labels removed",
+  "connected_view_erc_errors": 4,
+  "connected_view_erc_warnings": 0
 }

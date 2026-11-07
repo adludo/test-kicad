@@ -1,5 +1,7 @@
 # SFP experimenter — sequential schematic
 
+Open **[sfp-connected.pdf](sfp-connected.pdf)** for the new **single-view mapping with all components explicitly wired together**, or **sfp-connected.kicad_pro** to edit it. Every electrical net has continuous wires and junctions; the net labels only identify those wires. This large, single-page drawing uses a 1189 × 1400 mm sheet for legibility when zoomed. Undotted crossings are separate nets.
+
 Open **[sfp-sequential.pdf](sfp-sequential.pdf)** for the complete single-sheet mapping, or open **sfp-sequential.kicad_pro** in KiCad 9 to edit it. Keep the adjacent symbol library, footprint library and library tables together with the project.
 
 This redraw follows the repository's AGENTS.md: sequential pin IDs on each component, balanced opposite sides (difference at most one for odd pin counts), functional groups, named nets, and explicit remap documentation. SFP1's former four units are consolidated into one 40-pin symbol: pins 1–20 on the left, 21–40 on the right, increasing top to bottom on both sides. The mechanical cage contacts are included. Component references, values, manufacturer fields and electrical pin types are retained. Nets use a single N1–N25 series, with the original names in the sheet legend and [net-map.csv](net-map.csv).
@@ -44,7 +46,10 @@ export XDG_DATA_HOME=/workspace/.kicad-env/data
 /usr/bin/python3 scripts/regenerate.py
 /usr/bin/python3 scripts/verify.py
 kicad-cli sch export pdf -o sfp-sequential.pdf sfp-sequential.kicad_sch
+kicad-cli sch export pdf -o sfp-connected.pdf sfp-connected.kicad_sch
 ```
+
+Regeneration updates both schematic views. The verifier additionally exports a temporary connected schematic with all 25 net labels removed and checks that its pin-to-pin connectivity still matches. It verifies the same component/annotation inventory and symbol definitions in both views. The connected view also has exactly the four inherited power errors and zero warnings; see [connected-erc-report.rpt](connected-erc-report.rpt).
 
 The verifier succeeds only when the electrical/numbering/geometry comparisons pass and ERC contains exactly the four inherited power errors, on the same nets. KiCad's ERC command itself returns its violations status. No exclusions or ERC rule suppressions are added. The PDF was rendered and visually inspected for layout. No PCB fabrication or real-hardware test was performed.
 
