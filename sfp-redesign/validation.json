@@ -10,7 +10,8 @@
   "erc_errors": 4,
   "erc_warnings": 0,
   "erc_errors_inherited_from_source": true,
-  "connected_view": "all 54 components plus shield, all 25 nets physically wired; identical netlist with labels removed",
+  "connected_view": "A4 index + seven functional sheets; local wiring verified with labels removed on each sheet",
   "connected_view_erc_errors": 4,
-  "connected_view_erc_warnings": 0
+  "connected_view_erc_warnings": 0,
+  "connected_view_pages": 8
 }

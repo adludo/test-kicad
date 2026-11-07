@@ -72,14 +72,14 @@
           (name "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -90,14 +90,14 @@
           (name "1 [1-1]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -108,14 +108,14 @@
           (name "2 [2]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "3"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -126,14 +126,14 @@
           (name "3 [3]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "4"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -268,14 +268,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -286,14 +286,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -428,14 +428,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -446,14 +446,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -521,14 +521,14 @@
           (name "IN"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -539,14 +539,14 @@
           (name "GND"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -557,14 +557,14 @@
           (name "OUT"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "3"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -575,14 +575,14 @@
           (name "GND"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "4"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -650,14 +650,14 @@
           (name "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -668,14 +668,14 @@
           (name "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -686,14 +686,14 @@
           (name "3"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "3"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -704,14 +704,14 @@
           (name "4"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "4"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -846,14 +846,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -864,14 +864,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -980,14 +980,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -998,14 +998,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -1140,14 +1140,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -1158,14 +1158,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -1274,14 +1274,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -1292,14 +1292,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -1367,14 +1367,14 @@
           (name "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -1385,14 +1385,14 @@
           (name "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -1403,14 +1403,14 @@
           (name "3"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "3"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -1421,14 +1421,14 @@
           (name "4"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "4"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -1439,14 +1439,14 @@
           (name "5"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "5"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -1514,14 +1514,14 @@
           (name "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -1532,14 +1532,14 @@
           (name "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -1550,14 +1550,14 @@
           (name "3"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "3"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -1568,14 +1568,14 @@
           (name "4"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "4"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -1586,14 +1586,14 @@
           (name "5"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "5"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -1661,14 +1661,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -1679,14 +1679,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -1754,14 +1754,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -1772,14 +1772,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -1847,14 +1847,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -1865,14 +1865,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -1940,14 +1940,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -1958,14 +1958,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -2033,14 +2033,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -2051,14 +2051,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -2126,14 +2126,14 @@
           (name "GND@1 [BG1]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -2144,14 +2144,14 @@
           (name "GND@4 [BG2]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -2162,14 +2162,14 @@
           (name "1 [C]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "3"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -2180,14 +2180,14 @@
           (name "GND@2 [TG1]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "4"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -2198,14 +2198,14 @@
           (name "GND@3 [TG2]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "5"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -2273,14 +2273,14 @@
           (name "VCC"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -2291,14 +2291,14 @@
           (name "GND"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -2309,14 +2309,14 @@
           (name "Z"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "3"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -2327,14 +2327,14 @@
           (name "Y"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "4"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -2345,14 +2345,14 @@
           (name "D"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "5"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -2420,14 +2420,14 @@
           (name "GND@1 [BG1]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -2438,14 +2438,14 @@
           (name "GND@4 [BG2]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -2456,14 +2456,14 @@
           (name "1 [C]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "3"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -2474,14 +2474,14 @@
           (name "GND@2 [TG1]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "4"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -2492,14 +2492,14 @@
           (name "GND@3 [TG2]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "5"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -2567,14 +2567,14 @@
           (name "VCC"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -2585,14 +2585,14 @@
           (name "GND"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -2603,14 +2603,14 @@
           (name "A"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "3"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -2621,14 +2621,14 @@
           (name "B"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "4"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -2639,14 +2639,14 @@
           (name "R"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "5"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -2714,14 +2714,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -2732,14 +2732,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -2807,14 +2807,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -2825,14 +2825,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -2900,14 +2900,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -2918,14 +2918,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -3034,14 +3034,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -3052,14 +3052,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -3168,14 +3168,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -3186,14 +3186,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -3302,14 +3302,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -3320,14 +3320,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -3436,14 +3436,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -3454,14 +3454,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -3570,14 +3570,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -3588,14 +3588,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -3704,14 +3704,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -3722,14 +3722,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -3838,14 +3838,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -3856,14 +3856,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -3972,14 +3972,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -3990,14 +3990,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -4065,14 +4065,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -4083,14 +4083,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -4158,14 +4158,14 @@
           (name "B [B]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -4176,14 +4176,14 @@
           (name "C [C]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -4194,14 +4194,14 @@
           (name "E [E]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "3"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -4375,14 +4375,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -4393,14 +4393,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -4468,14 +4468,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -4486,14 +4486,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -4561,14 +4561,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -4579,14 +4579,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -4654,14 +4654,14 @@
           (name "B [B]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -4672,14 +4672,14 @@
           (name "C [C]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -4690,14 +4690,14 @@
           (name "E [E]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "3"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -4871,14 +4871,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -4889,14 +4889,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -4964,14 +4964,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -4982,14 +4982,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -5094,14 +5094,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -5112,14 +5112,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -5254,14 +5254,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -5272,14 +5272,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -5388,14 +5388,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -5406,14 +5406,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -5518,14 +5518,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -5536,14 +5536,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -5652,14 +5652,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -5670,14 +5670,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -5786,14 +5786,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -5804,14 +5804,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -5946,14 +5946,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -5964,14 +5964,14 @@
           (name "~"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -6039,14 +6039,14 @@
           (name "MOUNT [B3,2]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -6114,14 +6114,14 @@
           (name "MOUNT [B3,2]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -6189,14 +6189,14 @@
           (name "MOUNT [B3,2]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -6264,14 +6264,14 @@
           (name "MOUNT [B3,2]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -6563,14 +6563,14 @@
           (name "VEET1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "1"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -6581,14 +6581,14 @@
           (name "TX_FAULT"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "2"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -6599,14 +6599,14 @@
           (name "TX_DISABLE"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "3"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -6617,14 +6617,14 @@
           (name "MOD_DEF2/SDA"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "4"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -6635,14 +6635,14 @@
           (name "MOD_DEF1/SCL"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "5"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -6653,14 +6653,14 @@
           (name "MOD_DEF0/GND"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "6"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -6671,14 +6671,14 @@
           (name "RATE_SEL"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "7"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -6689,14 +6689,14 @@
           (name "LOS"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "8"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -6707,14 +6707,14 @@
           (name "VEER9"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "9"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -6725,14 +6725,14 @@
           (name "VEER10"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "10"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -6743,14 +6743,14 @@
           (name "VEER11"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "11"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -6761,14 +6761,14 @@
           (name "RD_N"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "12"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -6779,14 +6779,14 @@
           (name "RD_P"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "13"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -6797,14 +6797,14 @@
           (name "VEER14"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "14"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -6815,14 +6815,14 @@
           (name "VCCR"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "15"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -6833,14 +6833,14 @@
           (name "VCCT"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "16"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -6851,14 +6851,14 @@
           (name "VEET17"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "17"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -6869,14 +6869,14 @@
           (name "TD_P"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "18"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -6887,14 +6887,14 @@
           (name "TD_N"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "19"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -6905,14 +6905,14 @@
           (name "VEET20"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "20"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -6923,14 +6923,14 @@
           (name "CAGE [A1]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "21"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -6941,14 +6941,14 @@
           (name "CAGE [A2]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "22"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -6959,14 +6959,14 @@
           (name "CAGE [A3]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "23"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -6977,14 +6977,14 @@
           (name "CAGE [A4]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "24"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -6995,14 +6995,14 @@
           (name "CAGE [A5]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "25"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -7013,14 +7013,14 @@
           (name "CAGE [A6]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "26"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -7031,14 +7031,14 @@
           (name "CAGE [A7]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "27"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -7049,14 +7049,14 @@
           (name "CAGE [A8]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "28"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -7067,14 +7067,14 @@
           (name "CAGE [A10]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "29"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -7085,14 +7085,14 @@
           (name "CAGE [A11]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "30"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -7103,14 +7103,14 @@
           (name "CAGE [A12]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "31"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -7121,14 +7121,14 @@
           (name "CAGE [B1]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "32"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -7139,14 +7139,14 @@
           (name "CAGE [B2]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "33"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -7157,14 +7157,14 @@
           (name "CAGE [B3]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "34"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -7175,14 +7175,14 @@
           (name "CAGE [B4]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "35"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -7193,14 +7193,14 @@
           (name "CAGE [B5]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "36"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -7211,14 +7211,14 @@
           (name "CAGE [B6]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "37"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -7229,14 +7229,14 @@
           (name "CAGE [B7]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "38"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -7247,14 +7247,14 @@
           (name "CAGE [B8]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "39"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
@@ -7265,14 +7265,14 @@
           (name "CAGE [B10]"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )
           (number "40"
             (effects
               (font
-                (size 0.85 0.85)
+                (size 1.27 1.27)
               )
             )
           )

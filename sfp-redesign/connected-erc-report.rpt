@@ -1,17 +1,31 @@
-ERC report (2026-11-07T13:09:50+0000, Encoding UTF8)
+ERC report (2026-11-07T13:25:07+0000, Encoding UTF8)
 
 ***** Sheet /
+
+***** Sheet /2. Power input and 3.3 V regulation/
+
+***** Sheet /3. Host control and pull-up resistors/
+
+***** Sheet /4. LVDS transmit and receive/
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
-    @(238.76 mm, 365.76 mm): Symbol IC1 Pin 1 [VCC, Power input, Line]
+    @(114.30 mm, 49.53 mm): Symbol IC1 Pin 1 [VCC, Power input, Line]
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
-    @(238.76 mm, 370.84 mm): Symbol IC1 Pin 2 [GND, Power input, Line]
+    @(114.30 mm, 54.61 mm): Symbol IC1 Pin 2 [GND, Power input, Line]
+
+***** Sheet /5. SFP supply filtering/
+
+***** Sheet /6. TX fault and loss-of-signal indicators/
+
+***** Sheet /7. Decoupling and mechanical features/
+
+***** Sheet /8. SFP electrical and cage contact map/
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
-    @(894.08 mm, 1134.11 mm): Symbol SFP1 Pin 15 [VCCR, Power input, Line]
+    @(111.76 mm, 123.19 mm): Symbol SFP1 Pin 15 [VCCR, Power input, Line]
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
-    @(894.08 mm, 1139.19 mm): Symbol SFP1 Pin 16 [VCCT, Power input, Line]
+    @(111.76 mm, 128.27 mm): Symbol SFP1 Pin 16 [VCCT, Power input, Line]
 
  ** ERC messages: 4  Errors 4  Warnings 0

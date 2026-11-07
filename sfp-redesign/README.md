@@ -1,6 +1,19 @@
 # SFP experimenter — sequential schematic
 
-Open **[sfp-connected.pdf](sfp-connected.pdf)** for the new **single-view mapping with all components explicitly wired together**, or **sfp-connected.kicad_pro** to edit it. Every electrical net has continuous wires and junctions; the net labels only identify those wires. This large, single-page drawing uses a 1189 × 1400 mm sheet for legibility when zoomed. Undotted crossings are separate nets.
+Open **[sfp-connected.pdf](sfp-connected.pdf)** for the readable connected mapping, or **sfp-connected.kicad_pro** to edit it. The former meter-scale wire-backbone drawing is replaced by **eight standard A4 landscape pages**: an index plus seven functional sheets. Keep all `connected-*.kicad_sch` child files beside the root schematic.
+
+| PDF page | Function |
+| --- | --- |
+| 1 | Hierarchy / page index |
+| 2 | DC input, protection and 3.3 V regulator |
+| 3 | Host connectors and control pull-ups |
+| 4 | LVDS transmitter, receiver and termination |
+| 5 | SFP power filtering |
+| 6 | TX fault and loss-of-signal indicators |
+| 7 | Decoupling, mounting holes, fiducials and shield annotation |
+| 8 | SFP electrical pins and cage contacts |
+
+Each net is continuously wired **within its sheet**. Global N1–N25 interfaces join sheets; a local legend explains signal meanings. Junction dots identify connections and undotted crossings remain separate. The drawing has larger pin typography, short regional wiring and clear label stubs instead of a central bus farm. All eight exported pages were rendered and inspected at full-page desktop scale; the pin IDs, references, values and principal paths remain distinguishable without zooming deep into a corner.
 
 Open **[sfp-sequential.pdf](sfp-sequential.pdf)** for the complete single-sheet mapping, or open **sfp-sequential.kicad_pro** in KiCad 9 to edit it. Keep the adjacent symbol library, footprint library and library tables together with the project.
 
@@ -49,9 +62,9 @@ kicad-cli sch export pdf -o sfp-sequential.pdf sfp-sequential.kicad_sch
 kicad-cli sch export pdf -o sfp-connected.pdf sfp-connected.kicad_sch
 ```
 
-Regeneration updates both schematic views. The verifier additionally exports a temporary connected schematic with all 25 net labels removed and checks that its pin-to-pin connectivity still matches. It verifies the same component/annotation inventory and symbol definitions in both views. The connected view also has exactly the four inherited power errors and zero warnings; see [connected-erc-report.rpt](connected-erc-report.rpt).
+Regeneration updates the overview and the entire connected hierarchy. The verifier compares the full hierarchical netlist with the source and overview, checks all references/annotations and unchanged symbol definitions, and independently exports each child with all labels removed. Each child must preserve exactly its expected local pin-to-pin connections; labels may bridge sheets but cannot conceal missing local wires. Standalone checks rebase child instance paths only in temporary copies.
 
-The verifier succeeds only when the electrical/numbering/geometry comparisons pass and ERC contains exactly the four inherited power errors, on the same nets. KiCad's ERC command itself returns its violations status. No exclusions or ERC rule suppressions are added. The PDF was rendered and visually inspected for layout. No PCB fabrication or real-hardware test was performed.
+The verifier succeeds only when the electrical, numbering and geometry comparisons pass and ERC contains exactly the four inherited power errors, on the same nets. The connected hierarchy has zero ERC warnings; see [connected-erc-report.rpt](connected-erc-report.rpt). KiCad's ERC command itself returns its violations status; no exclusions or rule suppressions are added. Physical-contact remaps are unchanged. No PCB fabrication or real-hardware test was performed.
 
 ## Source and attribution
 

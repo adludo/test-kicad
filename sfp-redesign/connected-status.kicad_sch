@@ -1,0 +1,2949 @@
+(kicad_sch
+  (version 20250114)
+  (generator "eeschema")
+  (generator_version "9.0")
+  (uuid "f92e4544-53bd-5e04-a195-563de199f911")
+  (paper "A4")
+  (title_block
+    (title "TX fault and loss-of-signal indicators")
+    (rev "2")
+  )
+  (lib_symbols
+    (symbol "Sequential:R8"
+      (pin_names
+        (offset 0.635)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "R8"
+        (at 0 6.35 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+        )
+      )
+      (property "Value" "10k"
+        (at 0 -6.35 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+        )
+      )
+      (property "Footprint" "Sequential:R8"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+          (hide yes)
+        )
+      )
+      (property "Datasheet" ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+          (hide yes)
+        )
+      )
+      (symbol "R8_0_1"
+        (rectangle
+          (start -2.54 2.54)
+          (end 2.54 -2.54)
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol "R8_1_1"
+        (pin passive line
+          (at -7.62 0.0 0)
+          (length 5.08)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin passive line
+          (at 7.62 0.0 180)
+          (length 5.08)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol "Sequential:Q1"
+      (pin_names
+        (offset 0.635)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "Q1"
+        (at 0 8.89 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+        )
+      )
+      (property "Value" "BC847"
+        (at 0 -8.89 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+        )
+      )
+      (property "Footprint" "Sequential:Q1"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+          (hide yes)
+        )
+      )
+      (property "Datasheet" ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+          (hide yes)
+        )
+      )
+      (symbol "Q1_0_1"
+        (rectangle
+          (start -10.16 5.08)
+          (end 10.16 -5.08)
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol "Q1_1_1"
+        (pin passive line
+          (at -15.24 2.54 0)
+          (length 5.08)
+          (name "B [B]"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin passive line
+          (at -15.24 -2.54 0)
+          (length 5.08)
+          (name "C [C]"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin passive line
+          (at 15.24 0.0 180)
+          (length 5.08)
+          (name "E [E]"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol "Sequential:R9"
+      (pin_names
+        (offset 0.635)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "R9"
+        (at 0 6.35 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+        )
+      )
+      (property "Value" "330"
+        (at 0 -6.35 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+        )
+      )
+      (property "Footprint" "Sequential:R9"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+          (hide yes)
+        )
+      )
+      (property "Datasheet" ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+          (hide yes)
+        )
+      )
+      (symbol "R9_0_1"
+        (rectangle
+          (start -2.54 2.54)
+          (end 2.54 -2.54)
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol "R9_1_1"
+        (pin passive line
+          (at -7.62 0.0 0)
+          (length 5.08)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin passive line
+          (at 7.62 0.0 180)
+          (length 5.08)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol "Sequential:LED1"
+      (pin_names
+        (offset 0.635)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "LED1"
+        (at 0 6.35 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+        )
+      )
+      (property "Value" "KPH-1608SGC"
+        (at 0 -6.35 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+        )
+      )
+      (property "Footprint" "Sequential:LED1"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+          (hide yes)
+        )
+      )
+      (property "Datasheet" ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+          (hide yes)
+        )
+      )
+      (symbol "LED1_0_1"
+        (polyline
+          (pts
+            (xy -2.54 0)
+            (xy -1.27 0)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 1.27 0)
+            (xy 2.54 0)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy -1.27 -2.54)
+            (xy -1.27 2.54)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy -1.27 2.54)
+            (xy 1.27 0)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 1.27 0)
+            (xy -1.27 -2.54)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 1.27 -2.54)
+            (xy 1.27 2.54)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 0 3.175)
+            (xy 1.27 4.445)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 1.27 4.445)
+            (xy 0.635 4.445)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 1.27 4.445)
+            (xy 1.27 3.81)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+      )
+      (symbol "LED1_1_1"
+        (pin passive line
+          (at -7.62 0.0 0)
+          (length 5.08)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin passive line
+          (at 7.62 0.0 180)
+          (length 5.08)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol "Sequential:R7"
+      (pin_names
+        (offset 0.635)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "R7"
+        (at 0 6.35 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+        )
+      )
+      (property "Value" "10k"
+        (at 0 -6.35 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+        )
+      )
+      (property "Footprint" "Sequential:R7"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+          (hide yes)
+        )
+      )
+      (property "Datasheet" ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+          (hide yes)
+        )
+      )
+      (symbol "R7_0_1"
+        (rectangle
+          (start -2.54 2.54)
+          (end 2.54 -2.54)
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol "R7_1_1"
+        (pin passive line
+          (at -7.62 0.0 0)
+          (length 5.08)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin passive line
+          (at 7.62 0.0 180)
+          (length 5.08)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol "Sequential:Q2"
+      (pin_names
+        (offset 0.635)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "Q2"
+        (at 0 8.89 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+        )
+      )
+      (property "Value" "BC847"
+        (at 0 -8.89 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+        )
+      )
+      (property "Footprint" "Sequential:Q2"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+          (hide yes)
+        )
+      )
+      (property "Datasheet" ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+          (hide yes)
+        )
+      )
+      (symbol "Q2_0_1"
+        (rectangle
+          (start -10.16 5.08)
+          (end 10.16 -5.08)
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol "Q2_1_1"
+        (pin passive line
+          (at -15.24 2.54 0)
+          (length 5.08)
+          (name "B [B]"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin passive line
+          (at -15.24 -2.54 0)
+          (length 5.08)
+          (name "C [C]"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin passive line
+          (at 15.24 0.0 180)
+          (length 5.08)
+          (name "E [E]"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol "Sequential:R10"
+      (pin_names
+        (offset 0.635)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "R10"
+        (at 0 6.35 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+        )
+      )
+      (property "Value" "330"
+        (at 0 -6.35 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+        )
+      )
+      (property "Footprint" "Sequential:R10"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+          (hide yes)
+        )
+      )
+      (property "Datasheet" ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+          (hide yes)
+        )
+      )
+      (symbol "R10_0_1"
+        (rectangle
+          (start -2.54 2.54)
+          (end 2.54 -2.54)
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol "R10_1_1"
+        (pin passive line
+          (at -7.62 0.0 0)
+          (length 5.08)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin passive line
+          (at 7.62 0.0 180)
+          (length 5.08)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol "Sequential:LED2"
+      (pin_names
+        (offset 0.635)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "LED2"
+        (at 0 6.35 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+        )
+      )
+      (property "Value" "KPH-1608SGC"
+        (at 0 -6.35 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+        )
+      )
+      (property "Footprint" "Sequential:LED2"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+          (hide yes)
+        )
+      )
+      (property "Datasheet" ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+          (hide yes)
+        )
+      )
+      (symbol "LED2_0_1"
+        (polyline
+          (pts
+            (xy -2.54 0)
+            (xy -1.27 0)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 1.27 0)
+            (xy 2.54 0)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy -1.27 -2.54)
+            (xy -1.27 2.54)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy -1.27 2.54)
+            (xy 1.27 0)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 1.27 0)
+            (xy -1.27 -2.54)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 1.27 -2.54)
+            (xy 1.27 2.54)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 0 3.175)
+            (xy 1.27 4.445)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 1.27 4.445)
+            (xy 0.635 4.445)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 1.27 4.445)
+            (xy 1.27 3.81)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+      )
+      (symbol "LED2_1_1"
+        (pin passive line
+          (at -7.62 0.0 0)
+          (length 5.08)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin passive line
+          (at 7.62 0.0 180)
+          (length 5.08)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "Sequential:R8")
+    (at 49.53 59.69 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "4dba7432-9de4-5421-a2bf-37a2002f55c4")
+    (property "Reference" "R8"
+      (at 49.53 53.34 0)
+      (effects
+        (font
+          (size 1.5 1.5)
+        )
+      )
+    )
+    (property "Value" "10k"
+      (at 49.53 66.04 0)
+      (effects
+        (font
+          (size 1.5 1.5)
+        )
+      )
+    )
+    (property "Footprint" "Sequential:R8"
+      (at 49.53 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 49.53 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "CLASS" "RESISTOR"
+      (at 49.53 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "DATASHEET" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+      (at 49.53 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "DESCRIPTION" "RES 10K OHM 1% 1/10W 0603"
+      (at 49.53 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "LINK" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880"
+      (at 49.53 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "MANUFACTURER" "YAGEO"
+      (at 49.53 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "MANUFACTURERPARTNUMBER" "RC0603FR-0710KL"
+      (at 49.53 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "POPULATED" "TRUE"
+      (at 49.53 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "ROHSCERTIFICATE" "ROHS3 Compliant"
+      (at 49.53 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "SOURCE" "DIGIKEY"
+      (at 49.53 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "SOURCEPARTNUMBER" "311-10.0KHRCT-ND"
+      (at 49.53 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "Original Footprint" "sfp-experimenter:_0603"
+      (at 49.53 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "sfp-connected"
+        (path "/983ad390-a338-57eb-a1e5-56aee8a19469/03788503-a9ec-51bb-91fe-6a817782631c"
+          (reference "R8")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "Sequential:Q1")
+    (at 110.49 59.69 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "5303a74b-0f44-57e3-9dc0-50f24da7337b")
+    (property "Reference" "Q1"
+      (at 110.49 50.8 0)
+      (effects
+        (font
+          (size 1.5 1.5)
+        )
+      )
+    )
+    (property "Value" "BC847"
+      (at 110.49 68.58 0)
+      (effects
+        (font
+          (size 1.5 1.5)
+        )
+      )
+    )
+    (property "Footprint" "Sequential:Q1"
+      (at 110.49 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 110.49 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "CLASS" "TRANSISTOR"
+      (at 110.49 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "DESCRIPTION" "TRANS NPN GP 100MA 45V SOT23"
+      (at 110.49 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "LINK" "http://www.digikey.de/product-detail/de/foo/568-1636-1-ND"
+      (at 110.49 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "MANUFACTURER" "NXP Semiconductors"
+      (at 110.49 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "MANUFACTURERPARTNUMBER" "BC847C,215"
+      (at 110.49 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "POPULATED" "TRUE"
+      (at 110.49 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "ROHSCERTIFICATE" "Bleifrei / RoHS-konform"
+      (at 110.49 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "SOURCE" "DIGIKEY"
+      (at 110.49 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "SOURCEPARTNUMBER" "568-1636-1-ND"
+      (at 110.49 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "Original Footprint" "sfp-experimenter:SOT23-BEC"
+      (at 110.49 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "sfp-connected"
+        (path "/983ad390-a338-57eb-a1e5-56aee8a19469/03788503-a9ec-51bb-91fe-6a817782631c"
+          (reference "Q1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "Sequential:R9")
+    (at 180.34 59.69 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "1165ff3b-4f6a-5075-a3d7-6c4d20d2e817")
+    (property "Reference" "R9"
+      (at 180.34 53.34 0)
+      (effects
+        (font
+          (size 1.5 1.5)
+        )
+      )
+    )
+    (property "Value" "330"
+      (at 180.34 66.04 0)
+      (effects
+        (font
+          (size 1.5 1.5)
+        )
+      )
+    )
+    (property "Footprint" "Sequential:R9"
+      (at 180.34 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 180.34 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "CLASS" "RESISTOR"
+      (at 180.34 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "DATASHEET" "https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ3GEYJ331V"
+      (at 180.34 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "DESCRIPTION" "RES SMD 330 OHM 5% 1/10W 0603"
+      (at 180.34 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "LINK" "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ331V/P330GCT-ND/134778"
+      (at 180.34 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "MANUFACTURER" "Panasonic Electronic Components"
+      (at 180.34 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "MANUFACTURERPARTNUMBER" "ERJ-3GEYJ331V"
+      (at 180.34 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "POPULATED" "TRUE"
+      (at 180.34 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "ROHSCERTIFICATE" "ROHS3 Compliant"
+      (at 180.34 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "SOURCE" "DIGIKEY"
+      (at 180.34 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "SOURCEPARTNUMBER" "P330GCT-ND"
+      (at 180.34 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "Original Footprint" "sfp-experimenter:_0603"
+      (at 180.34 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "sfp-connected"
+        (path "/983ad390-a338-57eb-a1e5-56aee8a19469/03788503-a9ec-51bb-91fe-6a817782631c"
+          (reference "R9")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "Sequential:LED1")
+    (at 245.11 59.69 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "82e32322-a4b4-5bed-9067-112c4979d363")
+    (property "Reference" "LED1"
+      (at 245.11 53.34 0)
+      (effects
+        (font
+          (size 1.5 1.5)
+        )
+      )
+    )
+    (property "Value" "KPH-1608SGC"
+      (at 245.11 66.04 0)
+      (effects
+        (font
+          (size 1.5 1.5)
+        )
+      )
+    )
+    (property "Footprint" "Sequential:LED1"
+      (at 245.11 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 245.11 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "CLASS" "LED"
+      (at 245.11 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "DESCRIPTION" "NO DESCRIPTION"
+      (at 245.11 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "LINK" "UNKNOWN LINK"
+      (at 245.11 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "MANUFACTURER" "UNKNOWN MANUFACTURER"
+      (at 245.11 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "MANUFACTURERPARTNUMBER" "UNKNOWN MANUFACTURER PART NUMBER"
+      (at 245.11 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "POPULATED" "TRUE"
+      (at 245.11 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "ROHSCERTIFICATE" "UNKNOWN ROHS CERTIFICATE"
+      (at 245.11 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "SOURCE" "UNKNOWN SOURCE"
+      (at 245.11 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "SOURCEPARTNUMBER" "UNKNOWN SOURCE PART NUMBER"
+      (at 245.11 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "Original Footprint" "sfp-experimenter:CHIP-LED0603"
+      (at 245.11 59.69 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "sfp-connected"
+        (path "/983ad390-a338-57eb-a1e5-56aee8a19469/03788503-a9ec-51bb-91fe-6a817782631c"
+          (reference "LED1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "Sequential:R7")
+    (at 49.53 124.46 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "86742d43-e3ed-53b1-8f19-504d5b74bd8a")
+    (property "Reference" "R7"
+      (at 49.53 118.11 0)
+      (effects
+        (font
+          (size 1.5 1.5)
+        )
+      )
+    )
+    (property "Value" "10k"
+      (at 49.53 130.81 0)
+      (effects
+        (font
+          (size 1.5 1.5)
+        )
+      )
+    )
+    (property "Footprint" "Sequential:R7"
+      (at 49.53 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 49.53 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "CLASS" "RESISTOR"
+      (at 49.53 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "DATASHEET" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+      (at 49.53 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "DESCRIPTION" "RES 10K OHM 1% 1/10W 0603"
+      (at 49.53 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "LINK" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880"
+      (at 49.53 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "MANUFACTURER" "YAGEO"
+      (at 49.53 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "MANUFACTURERPARTNUMBER" "RC0603FR-0710KL"
+      (at 49.53 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "POPULATED" "TRUE"
+      (at 49.53 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "ROHSCERTIFICATE" "ROHS3 Compliant"
+      (at 49.53 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "SOURCE" "DIGIKEY"
+      (at 49.53 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "SOURCEPARTNUMBER" "311-10.0KHRCT-ND"
+      (at 49.53 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "Original Footprint" "sfp-experimenter:_0603"
+      (at 49.53 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "sfp-connected"
+        (path "/983ad390-a338-57eb-a1e5-56aee8a19469/03788503-a9ec-51bb-91fe-6a817782631c"
+          (reference "R7")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "Sequential:Q2")
+    (at 110.49 124.46 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "f2b6a67b-e24c-5ad6-ac6f-bf820c3df534")
+    (property "Reference" "Q2"
+      (at 110.49 115.57 0)
+      (effects
+        (font
+          (size 1.5 1.5)
+        )
+      )
+    )
+    (property "Value" "BC847"
+      (at 110.49 133.35 0)
+      (effects
+        (font
+          (size 1.5 1.5)
+        )
+      )
+    )
+    (property "Footprint" "Sequential:Q2"
+      (at 110.49 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 110.49 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "CLASS" "TRANSISTOR"
+      (at 110.49 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "DESCRIPTION" "TRANS NPN GP 100MA 45V SOT23"
+      (at 110.49 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "LINK" "http://www.digikey.de/product-detail/de/foo/568-1636-1-ND"
+      (at 110.49 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "MANUFACTURER" "NXP Semiconductors"
+      (at 110.49 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "MANUFACTURERPARTNUMBER" "BC847C,215"
+      (at 110.49 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "POPULATED" "TRUE"
+      (at 110.49 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "ROHSCERTIFICATE" "Bleifrei / RoHS-konform"
+      (at 110.49 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "SOURCE" "DIGIKEY"
+      (at 110.49 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "SOURCEPARTNUMBER" "568-1636-1-ND"
+      (at 110.49 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "Original Footprint" "sfp-experimenter:SOT23-BEC"
+      (at 110.49 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "sfp-connected"
+        (path "/983ad390-a338-57eb-a1e5-56aee8a19469/03788503-a9ec-51bb-91fe-6a817782631c"
+          (reference "Q2")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "Sequential:R10")
+    (at 180.34 124.46 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "0ce94545-ad1a-5d3c-aa8c-da0fcdf6abb7")
+    (property "Reference" "R10"
+      (at 180.34 118.11 0)
+      (effects
+        (font
+          (size 1.5 1.5)
+        )
+      )
+    )
+    (property "Value" "330"
+      (at 180.34 130.81 0)
+      (effects
+        (font
+          (size 1.5 1.5)
+        )
+      )
+    )
+    (property "Footprint" "Sequential:R10"
+      (at 180.34 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 180.34 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "CLASS" "RESISTOR"
+      (at 180.34 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "DATASHEET" "https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ3GEYJ331V"
+      (at 180.34 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "DESCRIPTION" "RES SMD 330 OHM 5% 1/10W 0603"
+      (at 180.34 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "LINK" "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ331V/P330GCT-ND/134778"
+      (at 180.34 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "MANUFACTURER" "Panasonic Electronic Components"
+      (at 180.34 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "MANUFACTURERPARTNUMBER" "ERJ-3GEYJ331V"
+      (at 180.34 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "POPULATED" "TRUE"
+      (at 180.34 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "ROHSCERTIFICATE" "ROHS3 Compliant"
+      (at 180.34 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "SOURCE" "DIGIKEY"
+      (at 180.34 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "SOURCEPARTNUMBER" "P330GCT-ND"
+      (at 180.34 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "Original Footprint" "sfp-experimenter:_0603"
+      (at 180.34 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "sfp-connected"
+        (path "/983ad390-a338-57eb-a1e5-56aee8a19469/03788503-a9ec-51bb-91fe-6a817782631c"
+          (reference "R10")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "Sequential:LED2")
+    (at 245.11 124.46 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "08689929-5f07-555e-a422-fd0341760695")
+    (property "Reference" "LED2"
+      (at 245.11 118.11 0)
+      (effects
+        (font
+          (size 1.5 1.5)
+        )
+      )
+    )
+    (property "Value" "KPH-1608SGC"
+      (at 245.11 130.81 0)
+      (effects
+        (font
+          (size 1.5 1.5)
+        )
+      )
+    )
+    (property "Footprint" "Sequential:LED2"
+      (at 245.11 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 245.11 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "CLASS" "LED"
+      (at 245.11 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "DESCRIPTION" "NO DESCRIPTION"
+      (at 245.11 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "LINK" "UNKNOWN LINK"
+      (at 245.11 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "MANUFACTURER" "UNKNOWN MANUFACTURER"
+      (at 245.11 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "MANUFACTURERPARTNUMBER" "UNKNOWN MANUFACTURER PART NUMBER"
+      (at 245.11 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "POPULATED" "TRUE"
+      (at 245.11 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "ROHSCERTIFICATE" "UNKNOWN ROHS CERTIFICATE"
+      (at 245.11 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "SOURCE" "UNKNOWN SOURCE"
+      (at 245.11 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "SOURCEPARTNUMBER" "UNKNOWN SOURCE PART NUMBER"
+      (at 245.11 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "Original Footprint" "sfp-experimenter:CHIP-LED0603"
+      (at 245.11 124.46 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "sfp-connected"
+        (path "/983ad390-a338-57eb-a1e5-56aee8a19469/03788503-a9ec-51bb-91fe-6a817782631c"
+          (reference "LED2")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 41.91 55.88)
+      (xy 41.91 59.69)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "9bae15d6-a302-5407-9099-002612f4f62f")
+  )
+  (wire
+    (pts
+      (xy 95.25 55.88)
+      (xy 95.25 57.15)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "d44d01a3-dbee-59f8-8a5e-6f51df3591e2")
+  )
+  (wire
+    (pts
+      (xy 41.91 55.88)
+      (xy 66.04 55.88)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "b9427568-aa82-56e4-9dd2-7ed36970dbdb")
+  )
+  (wire
+    (pts
+      (xy 66.04 55.88)
+      (xy 95.25 55.88)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "1e51d430-3996-5332-922a-9d63a864fdda")
+  )
+  (wire
+    (pts
+      (xy 66.04 55.88)
+      (xy 66.04 48.26)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "de4db6ce-3676-543e-885f-5b1e12206764")
+  )
+  (junction
+    (at 66.04 55.88)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "b712779b-e377-5dfc-a0d7-be9fd30003c8")
+  )
+  (global_label "N14"
+    (shape passive)
+    (at 66.04 48.26 0)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right)
+    )
+    (uuid "a4e11ca3-8f47-53ca-97ab-93890e4df408")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 66.04 48.26 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 57.15 59.69)
+      (xy 66.04 59.69)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "e2ecffb9-9509-509f-81ff-ad60e8bd64c5")
+  )
+  (global_label "N2"
+    (shape passive)
+    (at 66.04 59.69 180)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right)
+    )
+    (uuid "8656baed-a6d3-5a78-a36e-ee7c1c96ecda")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 66.04 59.69 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 95.25 62.23)
+      (xy 95.25 66.04)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "3f94a0fd-ba9f-5ed9-b670-72f8b37485eb")
+  )
+  (wire
+    (pts
+      (xy 95.25 66.04)
+      (xy 123.19 66.04)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "4d9bba10-8565-5a7b-bdc5-df29a37e09a3")
+  )
+  (wire
+    (pts
+      (xy 123.19 58.42)
+      (xy 123.19 66.04)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "ad652af3-1fa5-504e-ba4e-f710f5b6e030")
+  )
+  (wire
+    (pts
+      (xy 172.72 58.42)
+      (xy 172.72 59.69)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "f001843f-9a33-5187-960c-526d6edcf6b8")
+  )
+  (wire
+    (pts
+      (xy 123.19 58.42)
+      (xy 135.89 58.42)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "f1d448af-43ba-5a11-98aa-a0c9ea1ca733")
+  )
+  (wire
+    (pts
+      (xy 135.89 58.42)
+      (xy 172.72 58.42)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "63a35f3c-97df-515b-81cb-95c868d842a4")
+  )
+  (wire
+    (pts
+      (xy 135.89 58.42)
+      (xy 135.89 50.8)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "289f6698-487f-5eb8-961f-1f8354fbacd4")
+  )
+  (junction
+    (at 135.89 58.42)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "7c11a84a-867c-5cb7-82ef-b308006ef468")
+  )
+  (global_label "N15"
+    (shape passive)
+    (at 135.89 50.8 0)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right)
+    )
+    (uuid "7ab3179a-be58-5640-823a-7b0385fea774")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 135.89 50.8 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 125.73 59.69)
+      (xy 127.0 59.69)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "51790fca-98c8-52bc-8fd6-6ae001192b5d")
+  )
+  (wire
+    (pts
+      (xy 125.73 124.46)
+      (xy 127.0 124.46)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "941552a9-a97e-5148-b279-9d8021ba86be")
+  )
+  (wire
+    (pts
+      (xy 127.0 59.69)
+      (xy 127.0 67.31)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "3547fac1-4ba3-50af-b7a4-83e9de0349d0")
+  )
+  (wire
+    (pts
+      (xy 127.0 67.31)
+      (xy 127.0 124.46)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "b1280be8-a287-5b81-8f5c-134b290c9e95")
+  )
+  (wire
+    (pts
+      (xy 127.0 67.31)
+      (xy 134.62 67.31)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "824b6f46-db82-55e8-9cf8-3238bde81b6b")
+  )
+  (junction
+    (at 127.0 67.31)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "87e3775e-a41c-56f8-a2f3-d2ed846d9da6")
+  )
+  (global_label "N4"
+    (shape passive)
+    (at 134.62 67.31 180)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right)
+    )
+    (uuid "20ecb394-93d5-5caf-ae33-7efab0191c32")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 134.62 67.31 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 187.96 55.88)
+      (xy 187.96 59.69)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "8f923684-5acf-5f6e-8d0f-459d20ba24c7")
+  )
+  (wire
+    (pts
+      (xy 252.73 55.88)
+      (xy 252.73 59.69)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "0508a453-cb8b-5928-bde7-034a3ea01485")
+  )
+  (wire
+    (pts
+      (xy 187.96 55.88)
+      (xy 196.85 55.88)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "a4587d20-1ceb-5e1c-951b-580d0b75a05c")
+  )
+  (wire
+    (pts
+      (xy 196.85 55.88)
+      (xy 252.73 55.88)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "b0693fec-6ccd-597d-b307-1d67fa9351f7")
+  )
+  (wire
+    (pts
+      (xy 196.85 55.88)
+      (xy 196.85 48.26)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "2656618d-2e05-53f0-8a01-5466cf140af1")
+  )
+  (junction
+    (at 196.85 55.88)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "b053220b-5cf1-5687-b778-37bee26b10b6")
+  )
+  (global_label "N12"
+    (shape passive)
+    (at 196.85 48.26 0)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right)
+    )
+    (uuid "a5d62e9e-a3a3-58f3-b81d-5fa6af6bd8d6")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 196.85 48.26 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 228.6 59.69)
+      (xy 228.6 124.46)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "f0155910-f068-5014-abd0-3e0d97733555")
+  )
+  (wire
+    (pts
+      (xy 228.6 59.69)
+      (xy 237.49 59.69)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "c1ec1b0d-c2f0-5de9-800e-203295d39831")
+  )
+  (wire
+    (pts
+      (xy 228.6 124.46)
+      (xy 237.49 124.46)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "9c1c921d-e621-576b-aae2-056c5f9ff586")
+  )
+  (wire
+    (pts
+      (xy 228.6 59.69)
+      (xy 220.98 59.69)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "3dfd6bf1-4802-5e46-985b-8f42092c4e38")
+  )
+  (junction
+    (at 228.6 59.69)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "e27a4043-6148-5849-aabe-e65532004f24")
+  )
+  (global_label "N3"
+    (shape passive)
+    (at 220.98 59.69 0)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right)
+    )
+    (uuid "1082b6df-76dc-58a7-8ce7-57281378b753")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 220.98 59.69 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 41.91 120.65)
+      (xy 41.91 124.46)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "54b603d7-fc3c-59e3-9734-e0faa2afbeae")
+  )
+  (wire
+    (pts
+      (xy 95.25 120.65)
+      (xy 95.25 121.92)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "6f4b2bd7-fdbe-5029-a9c9-af681613b90a")
+  )
+  (wire
+    (pts
+      (xy 41.91 120.65)
+      (xy 66.04 120.65)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "c76cd891-a2a3-5076-b383-88922230fd7a")
+  )
+  (wire
+    (pts
+      (xy 66.04 120.65)
+      (xy 95.25 120.65)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "d73dc9dd-a18b-5381-be67-f0189cdf2f50")
+  )
+  (wire
+    (pts
+      (xy 66.04 120.65)
+      (xy 66.04 113.03)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "2a6ea8f2-e386-5f37-af70-6bf4bea4e8b1")
+  )
+  (junction
+    (at 66.04 120.65)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "3953533a-6a8a-5541-aaee-7450c8e16d9c")
+  )
+  (global_label "N16"
+    (shape passive)
+    (at 66.04 113.03 0)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right)
+    )
+    (uuid "0e3fca6f-9160-5594-bd2f-dbb6b3d00618")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 66.04 113.03 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 57.15 124.46)
+      (xy 66.04 124.46)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "4ee65ddb-784c-54b6-8632-eb387b32521b")
+  )
+  (global_label "N1"
+    (shape passive)
+    (at 66.04 124.46 180)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right)
+    )
+    (uuid "d920dd85-3e75-51e4-b817-e85bf45982aa")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 66.04 124.46 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 95.25 127.0)
+      (xy 95.25 130.81)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "c44093f4-e497-5e74-8086-1ec3a37727c9")
+  )
+  (wire
+    (pts
+      (xy 95.25 130.81)
+      (xy 128.27 130.81)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "a17fa171-bfe7-5fcc-bd9f-26c70e7f5a2e")
+  )
+  (wire
+    (pts
+      (xy 128.27 124.46)
+      (xy 128.27 130.81)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "b5c60a2f-2e4d-5b60-939e-f0465fff4fa6")
+  )
+  (wire
+    (pts
+      (xy 128.27 124.46)
+      (xy 137.16 124.46)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "10a7efcc-205f-5ffc-8f1e-d9c5dd3eec40")
+  )
+  (wire
+    (pts
+      (xy 137.16 124.46)
+      (xy 172.72 124.46)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "8ff23c6b-a296-5bd1-9944-018e624175b2")
+  )
+  (wire
+    (pts
+      (xy 137.16 124.46)
+      (xy 137.16 116.84)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "98c6204d-63c3-5eb6-af51-964680671ee7")
+  )
+  (junction
+    (at 137.16 124.46)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "d01d0169-dd95-58df-81fa-54d63de28b17")
+  )
+  (global_label "N17"
+    (shape passive)
+    (at 137.16 116.84 0)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right)
+    )
+    (uuid "fdcac0f5-45b2-5fdb-aa71-657c544b0b47")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 137.16 116.84 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 187.96 124.46)
+      (xy 187.96 128.27)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "4f2013cd-c51e-5828-bbc6-00aead522c2a")
+  )
+  (wire
+    (pts
+      (xy 252.73 124.46)
+      (xy 252.73 128.27)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "0951e921-4b7d-5830-acec-9d81e26ce5b8")
+  )
+  (wire
+    (pts
+      (xy 187.96 128.27)
+      (xy 196.85 128.27)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "96376883-ae8a-5478-96a9-05b336730559")
+  )
+  (wire
+    (pts
+      (xy 196.85 128.27)
+      (xy 252.73 128.27)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "19838c21-4b10-5be7-9793-e623c7214bf0")
+  )
+  (wire
+    (pts
+      (xy 196.85 128.27)
+      (xy 196.85 135.89)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "895faccd-8e62-51fa-aa2b-088c0dc2a383")
+  )
+  (junction
+    (at 196.85 128.27)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "0d756d95-630a-5a6a-a865-f6a79551a4a3")
+  )
+  (global_label "N13"
+    (shape passive)
+    (at 196.85 135.89 0)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right)
+    )
+    (uuid "09e1cfe0-1648-5203-ae0b-f8dac833dfa2")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 196.85 135.89 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+  )
+  (text "TX fault and loss-of-signal indicators"
+    (at 18 15 0)
+    (effects
+      (font
+        (size 2.5 2.5)
+      )
+      (justify left)
+    )
+    (uuid "92e7b44b-25b0-5f0d-bd85-a8e43dbc85d3")
+  )
+  (text "N1: LOS | N2: TX_FAULT | N3: 3.3 V | N4: GND | N12: Fault LED cathode"
+    (at 18 170 0)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left)
+    )
+    (uuid "85141ece-c3d3-542f-ae71-371f72e6f180")
+  )
+  (text "N13: LOS LED cathode | N14: Fault transistor base | N15: Fault transistor collector | N16: LOS transistor base | N17: LOS transistor collector"
+    (at 18 175 0)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left)
+    )
+    (uuid "c10e1e4b-eccf-5db9-aec3-3b59a179e1df")
+  )
+  (text "Dots join wires; undotted crossings are separate. N interfaces connect across sheets."
+    (at 18 192 0)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left)
+    )
+    (uuid "ac9537ea-3934-5331-9712-7d66b1f0e2f9")
+  )
+)

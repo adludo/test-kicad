@@ -1,0 +1,2579 @@
+(kicad_sch
+  (version 20250114)
+  (generator "eeschema")
+  (generator_version "9.0")
+  (uuid "c7895587-df63-56be-b53d-71e715a480a6")
+  (paper "A4")
+  (title_block
+    (title "SFP supply filtering")
+    (rev "2")
+  )
+  (lib_symbols
+    (symbol "Sequential:L1"
+      (pin_names
+        (offset 0.635)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "L1"
+        (at 0 6.35 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+        )
+      )
+      (property "Value" "1nH"
+        (at 0 -6.35 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+        )
+      )
+      (property "Footprint" "Sequential:L1"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+          (hide yes)
+        )
+      )
+      (property "Datasheet" ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+          (hide yes)
+        )
+      )
+      (symbol "L1_0_1"
+        (arc
+          (start -2.54 0)
+          (mid -1.905 0.8)
+          (end -1.27 0)
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (arc
+          (start -1.27 0)
+          (mid -0.635 0.8)
+          (end 0.0 0)
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (arc
+          (start 0.0 0)
+          (mid 0.635 0.8)
+          (end 1.27 0)
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (arc
+          (start 1.27 0)
+          (mid 1.905 0.8)
+          (end 2.54 0)
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+      )
+      (symbol "L1_1_1"
+        (pin passive line
+          (at -7.62 0.0 0)
+          (length 5.08)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin passive line
+          (at 7.62 0.0 180)
+          (length 5.08)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol "Sequential:C1"
+      (pin_names
+        (offset 0.635)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "C1"
+        (at 0 6.35 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+        )
+      )
+      (property "Value" "10u / 16V"
+        (at 0 -6.35 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+        )
+      )
+      (property "Footprint" "Sequential:C1"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+          (hide yes)
+        )
+      )
+      (property "Datasheet" ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+          (hide yes)
+        )
+      )
+      (symbol "C1_0_1"
+        (polyline
+          (pts
+            (xy -2.54 0)
+            (xy -0.635 0)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 0.635 0)
+            (xy 2.54 0)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy -0.635 -2.54)
+            (xy -0.635 2.54)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 0.635 -2.54)
+            (xy 0.635 2.54)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy -2.54 1.27)
+            (xy -1.27 1.27)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy -1.905 0.635)
+            (xy -1.905 1.905)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+      )
+      (symbol "C1_1_1"
+        (pin passive line
+          (at -7.62 0.0 0)
+          (length 5.08)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin passive line
+          (at 7.62 0.0 180)
+          (length 5.08)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol "Sequential:C2"
+      (pin_names
+        (offset 0.635)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "C2"
+        (at 0 6.35 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+        )
+      )
+      (property "Value" "100n"
+        (at 0 -6.35 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+        )
+      )
+      (property "Footprint" "Sequential:C2"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+          (hide yes)
+        )
+      )
+      (property "Datasheet" ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+          (hide yes)
+        )
+      )
+      (symbol "C2_0_1"
+        (polyline
+          (pts
+            (xy -2.54 0)
+            (xy -0.635 0)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 0.635 0)
+            (xy 2.54 0)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy -0.635 -2.54)
+            (xy -0.635 2.54)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 0.635 -2.54)
+            (xy 0.635 2.54)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+      )
+      (symbol "C2_1_1"
+        (pin passive line
+          (at -7.62 0.0 0)
+          (length 5.08)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin passive line
+          (at 7.62 0.0 180)
+          (length 5.08)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol "Sequential:L2"
+      (pin_names
+        (offset 0.635)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "L2"
+        (at 0 6.35 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+        )
+      )
+      (property "Value" "1nH"
+        (at 0 -6.35 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+        )
+      )
+      (property "Footprint" "Sequential:L2"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+          (hide yes)
+        )
+      )
+      (property "Datasheet" ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+          (hide yes)
+        )
+      )
+      (symbol "L2_0_1"
+        (arc
+          (start -2.54 0)
+          (mid -1.905 0.8)
+          (end -1.27 0)
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (arc
+          (start -1.27 0)
+          (mid -0.635 0.8)
+          (end 0.0 0)
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (arc
+          (start 0.0 0)
+          (mid 0.635 0.8)
+          (end 1.27 0)
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (arc
+          (start 1.27 0)
+          (mid 1.905 0.8)
+          (end 2.54 0)
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+      )
+      (symbol "L2_1_1"
+        (pin passive line
+          (at -7.62 0.0 0)
+          (length 5.08)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin passive line
+          (at 7.62 0.0 180)
+          (length 5.08)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol "Sequential:C5"
+      (pin_names
+        (offset 0.635)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "C5"
+        (at 0 6.35 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+        )
+      )
+      (property "Value" "100n"
+        (at 0 -6.35 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+        )
+      )
+      (property "Footprint" "Sequential:C5"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+          (hide yes)
+        )
+      )
+      (property "Datasheet" ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+          (hide yes)
+        )
+      )
+      (symbol "C5_0_1"
+        (polyline
+          (pts
+            (xy -2.54 0)
+            (xy -0.635 0)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 0.635 0)
+            (xy 2.54 0)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy -0.635 -2.54)
+            (xy -0.635 2.54)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 0.635 -2.54)
+            (xy 0.635 2.54)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+      )
+      (symbol "C5_1_1"
+        (pin passive line
+          (at -7.62 0.0 0)
+          (length 5.08)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin passive line
+          (at 7.62 0.0 180)
+          (length 5.08)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol "Sequential:C7"
+      (pin_names
+        (offset 0.635)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "C7"
+        (at 0 6.35 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+        )
+      )
+      (property "Value" "100n"
+        (at 0 -6.35 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+        )
+      )
+      (property "Footprint" "Sequential:C7"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+          (hide yes)
+        )
+      )
+      (property "Datasheet" ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+          (hide yes)
+        )
+      )
+      (symbol "C7_0_1"
+        (polyline
+          (pts
+            (xy -2.54 0)
+            (xy -0.635 0)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 0.635 0)
+            (xy 2.54 0)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy -0.635 -2.54)
+            (xy -0.635 2.54)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 0.635 -2.54)
+            (xy 0.635 2.54)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+      )
+      (symbol "C7_1_1"
+        (pin passive line
+          (at -7.62 0.0 0)
+          (length 5.08)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin passive line
+          (at 7.62 0.0 180)
+          (length 5.08)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol "Sequential:C9"
+      (pin_names
+        (offset 0.635)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "C9"
+        (at 0 6.35 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+        )
+      )
+      (property "Value" "10u / 16V"
+        (at 0 -6.35 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+        )
+      )
+      (property "Footprint" "Sequential:C9"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+          (hide yes)
+        )
+      )
+      (property "Datasheet" ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1 1)
+          )
+          (hide yes)
+        )
+      )
+      (symbol "C9_0_1"
+        (polyline
+          (pts
+            (xy -2.54 0)
+            (xy -0.635 0)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 0.635 0)
+            (xy 2.54 0)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy -0.635 -2.54)
+            (xy -0.635 2.54)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 0.635 -2.54)
+            (xy 0.635 2.54)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy -2.54 1.27)
+            (xy -1.27 1.27)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy -1.905 0.635)
+            (xy -1.905 1.905)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+      )
+      (symbol "C9_1_1"
+        (pin passive line
+          (at -7.62 0.0 0)
+          (length 5.08)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin passive line
+          (at 7.62 0.0 180)
+          (length 5.08)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "Sequential:L1")
+    (at 64.77 54.61 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "f2f45d5d-0da5-5a0e-9307-d87c8a09008f")
+    (property "Reference" "L1"
+      (at 64.77 48.26 0)
+      (effects
+        (font
+          (size 1.5 1.5)
+        )
+      )
+    )
+    (property "Value" "1nH"
+      (at 64.77 60.96 0)
+      (effects
+        (font
+          (size 1.5 1.5)
+        )
+      )
+    )
+    (property "Footprint" "Sequential:L1"
+      (at 64.77 54.61 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 64.77 54.61 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "CLASS" "INDUCTOR"
+      (at 64.77 54.61 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "DATASHEET" "https://abracon.com/Magnetics/new/AIMC-0603.pdf"
+      (at 64.77 54.61 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "DESCRIPTION" "FIXED IND 1NH 500MA 50 MOHM SMD"
+      (at 64.77 54.61 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "LINK" "https://www.digikey.com/product-detail/en/abracon-llc/AIMC-0603-1N0S-T/535-11529-1-ND/2782759"
+      (at 64.77 54.61 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "MANUFACTURER" "Abracon LLC"
+      (at 64.77 54.61 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "MANUFACTURERPARTNUMBER" "AIMC-0603-1N0S-T"
+      (at 64.77 54.61 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "POPULATED" "TRUE"
+      (at 64.77 54.61 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "ROHSCERTIFICATE" "RoHS Compliant"
+      (at 64.77 54.61 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "SOURCE" "DIGIKEY"
+      (at 64.77 54.61 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "SOURCEPARTNUMBER" "535-11529-1-ND"
+      (at 64.77 54.61 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "Original Footprint" "sfp-experimenter:0603"
+      (at 64.77 54.61 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "sfp-connected"
+        (path "/983ad390-a338-57eb-a1e5-56aee8a19469/b27e170c-f297-59f6-b66c-991db401e6c4"
+          (reference "L1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "Sequential:C1")
+    (at 124.46 54.61 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "2b36f30e-ed0b-57f4-8bd6-62bdf6b5e53d")
+    (property "Reference" "C1"
+      (at 124.46 48.26 0)
+      (effects
+        (font
+          (size 1.5 1.5)
+        )
+      )
+    )
+    (property "Value" "10u / 16V"
+      (at 124.46 60.96 0)
+      (effects
+        (font
+          (size 1.5 1.5)
+        )
+      )
+    )
+    (property "Footprint" "Sequential:C1"
+      (at 124.46 54.61 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 124.46 54.61 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "CLASS" "CAPACITOR"
+      (at 124.46 54.61 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "DATASHEET" "https://www.samsungsem.com/kr/support/product-search/mlcc/CL31A106KOHNNNE.jsp"
+      (at 124.46 54.61 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "DESCRIPTION" "CAP CER 10UF 16V X5R 1206"
+      (at 124.46 54.61 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "LINK" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A106KOHNNNE/3886795"
+      (at 124.46 54.61 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "MANUFACTURER" "Samsung Electro-Mechanics"
+      (at 124.46 54.61 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "MANUFACTURERPARTNUMBER" "CL31A106KOHNNNE"
+      (at 124.46 54.61 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "POPULATED" "TRUE"
+      (at 124.46 54.61 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "ROHSCERTIFICATE" "ROHS3 Compliant"
+      (at 124.46 54.61 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "SOURCE" "DIGIKEY"
+      (at 124.46 54.61 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "SOURCEPARTNUMBER" "1276-1137-1-ND"
+      (at 124.46 54.61 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "Original Footprint" "sfp-experimenter:CPOL1206"
+      (at 124.46 54.61 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "sfp-connected"
+        (path "/983ad390-a338-57eb-a1e5-56aee8a19469/b27e170c-f297-59f6-b66c-991db401e6c4"
+          (reference "C1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "Sequential:C2")
+    (at 190.5 54.61 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "6a230f0a-585d-555c-984f-99c7154f50ec")
+    (property "Reference" "C2"
+      (at 190.5 48.26 0)
+      (effects
+        (font
+          (size 1.5 1.5)
+        )
+      )
+    )
+    (property "Value" "100n"
+      (at 190.5 60.96 0)
+      (effects
+        (font
+          (size 1.5 1.5)
+        )
+      )
+    )
+    (property "Footprint" "Sequential:C2"
+      (at 190.5 54.61 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 190.5 54.61 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "CLASS" "CAPACITOR"
+      (at 190.5 54.61 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "DATASHEET" "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8NNNC.jsp"
+      (at 190.5 54.61 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "DESCRIPTION" "CAP CER 0.1UF 16V X7R 0603"
+      (at 190.5 54.61 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "LINK" "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KO8NNNC/1276-1005-1-ND/3889091"
+      (at 190.5 54.61 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "MANUFACTURER" "Samsung Electro-Mechanics"
+      (at 190.5 54.61 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "MANUFACTURERPARTNUMBER" "CL10B104KO8NNNC"
+      (at 190.5 54.61 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "POPULATED" "TRUE"
+      (at 190.5 54.61 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "ROHSCERTIFICATE" "ROHS3 Compliant"
+      (at 190.5 54.61 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "SOURCE" "DIGIKEY"
+      (at 190.5 54.61 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "SOURCEPARTNUMBER" "1276-1005-1-ND"
+      (at 190.5 54.61 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "Original Footprint" "sfp-experimenter:_0603"
+      (at 190.5 54.61 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "sfp-connected"
+        (path "/983ad390-a338-57eb-a1e5-56aee8a19469/b27e170c-f297-59f6-b66c-991db401e6c4"
+          (reference "C2")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "Sequential:L2")
+    (at 64.77 119.38 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "b3eeefc6-a19c-5424-9930-60b7830e9777")
+    (property "Reference" "L2"
+      (at 64.77 113.03 0)
+      (effects
+        (font
+          (size 1.5 1.5)
+        )
+      )
+    )
+    (property "Value" "1nH"
+      (at 64.77 125.73 0)
+      (effects
+        (font
+          (size 1.5 1.5)
+        )
+      )
+    )
+    (property "Footprint" "Sequential:L2"
+      (at 64.77 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 64.77 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "CLASS" "INDUCTOR"
+      (at 64.77 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "DATASHEET" "https://abracon.com/Magnetics/new/AIMC-0603.pdf"
+      (at 64.77 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "DESCRIPTION" "FIXED IND 1NH 500MA 50 MOHM SMD"
+      (at 64.77 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "LINK" "https://www.digikey.com/product-detail/en/abracon-llc/AIMC-0603-1N0S-T/535-11529-1-ND/2782759"
+      (at 64.77 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "MANUFACTURER" "Abracon LLC"
+      (at 64.77 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "MANUFACTURERPARTNUMBER" "AIMC-0603-1N0S-T"
+      (at 64.77 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "POPULATED" "TRUE"
+      (at 64.77 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "ROHSCERTIFICATE" "RoHS Compliant"
+      (at 64.77 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "SOURCE" "DIGIKEY"
+      (at 64.77 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "SOURCEPARTNUMBER" "535-11529-1-ND"
+      (at 64.77 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "Original Footprint" "sfp-experimenter:0603"
+      (at 64.77 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "sfp-connected"
+        (path "/983ad390-a338-57eb-a1e5-56aee8a19469/b27e170c-f297-59f6-b66c-991db401e6c4"
+          (reference "L2")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "Sequential:C5")
+    (at 124.46 119.38 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "dd574d5a-dde2-5c3e-a120-1cec76aa5a60")
+    (property "Reference" "C5"
+      (at 124.46 113.03 0)
+      (effects
+        (font
+          (size 1.5 1.5)
+        )
+      )
+    )
+    (property "Value" "100n"
+      (at 124.46 125.73 0)
+      (effects
+        (font
+          (size 1.5 1.5)
+        )
+      )
+    )
+    (property "Footprint" "Sequential:C5"
+      (at 124.46 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 124.46 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "CLASS" "CAPACITOR"
+      (at 124.46 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "DATASHEET" "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8NNNC.jsp"
+      (at 124.46 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "DESCRIPTION" "CAP CER 0.1UF 16V X7R 0603"
+      (at 124.46 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "LINK" "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KO8NNNC/1276-1005-1-ND/3889091"
+      (at 124.46 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "MANUFACTURER" "Samsung Electro-Mechanics"
+      (at 124.46 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "MANUFACTURERPARTNUMBER" "CL10B104KO8NNNC"
+      (at 124.46 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "POPULATED" "TRUE"
+      (at 124.46 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "ROHSCERTIFICATE" "ROHS3 Compliant"
+      (at 124.46 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "SOURCE" "DIGIKEY"
+      (at 124.46 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "SOURCEPARTNUMBER" "1276-1005-1-ND"
+      (at 124.46 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "Original Footprint" "sfp-experimenter:_0603"
+      (at 124.46 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "sfp-connected"
+        (path "/983ad390-a338-57eb-a1e5-56aee8a19469/b27e170c-f297-59f6-b66c-991db401e6c4"
+          (reference "C5")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "Sequential:C7")
+    (at 190.5 119.38 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "72b37e32-3443-57ab-8863-8ecd416d690c")
+    (property "Reference" "C7"
+      (at 190.5 113.03 0)
+      (effects
+        (font
+          (size 1.5 1.5)
+        )
+      )
+    )
+    (property "Value" "100n"
+      (at 190.5 125.73 0)
+      (effects
+        (font
+          (size 1.5 1.5)
+        )
+      )
+    )
+    (property "Footprint" "Sequential:C7"
+      (at 190.5 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 190.5 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "CLASS" "CAPACITOR"
+      (at 190.5 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "DATASHEET" "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8NNNC.jsp"
+      (at 190.5 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "DESCRIPTION" "CAP CER 0.1UF 16V X7R 0603"
+      (at 190.5 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "LINK" "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KO8NNNC/1276-1005-1-ND/3889091"
+      (at 190.5 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "MANUFACTURER" "Samsung Electro-Mechanics"
+      (at 190.5 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "MANUFACTURERPARTNUMBER" "CL10B104KO8NNNC"
+      (at 190.5 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "POPULATED" "TRUE"
+      (at 190.5 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "ROHSCERTIFICATE" "ROHS3 Compliant"
+      (at 190.5 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "SOURCE" "DIGIKEY"
+      (at 190.5 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "SOURCEPARTNUMBER" "1276-1005-1-ND"
+      (at 190.5 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "Original Footprint" "sfp-experimenter:_0603"
+      (at 190.5 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "sfp-connected"
+        (path "/983ad390-a338-57eb-a1e5-56aee8a19469/b27e170c-f297-59f6-b66c-991db401e6c4"
+          (reference "C7")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "Sequential:C9")
+    (at 245.11 119.38 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "4cb40214-bd42-576d-8157-f6ebbd86a7cf")
+    (property "Reference" "C9"
+      (at 245.11 113.03 0)
+      (effects
+        (font
+          (size 1.5 1.5)
+        )
+      )
+    )
+    (property "Value" "10u / 16V"
+      (at 245.11 125.73 0)
+      (effects
+        (font
+          (size 1.5 1.5)
+        )
+      )
+    )
+    (property "Footprint" "Sequential:C9"
+      (at 245.11 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 245.11 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "CLASS" "CAPACITOR"
+      (at 245.11 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "DATASHEET" "https://www.samsungsem.com/kr/support/product-search/mlcc/CL31A106KOHNNNE.jsp"
+      (at 245.11 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "DESCRIPTION" "CAP CER 10UF 16V X5R 1206"
+      (at 245.11 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "LINK" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A106KOHNNNE/3886795"
+      (at 245.11 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "MANUFACTURER" "Samsung Electro-Mechanics"
+      (at 245.11 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "MANUFACTURERPARTNUMBER" "CL31A106KOHNNNE"
+      (at 245.11 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "POPULATED" "TRUE"
+      (at 245.11 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "ROHSCERTIFICATE" "ROHS3 Compliant"
+      (at 245.11 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "SOURCE" "DIGIKEY"
+      (at 245.11 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "SOURCEPARTNUMBER" "1276-1137-1-ND"
+      (at 245.11 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (property "Original Footprint" "sfp-experimenter:CPOL1206"
+      (at 245.11 119.38 0)
+      (effects
+        (font
+          (size 1 1)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "sfp-connected"
+        (path "/983ad390-a338-57eb-a1e5-56aee8a19469/b27e170c-f297-59f6-b66c-991db401e6c4"
+          (reference "C9")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 57.15 54.61)
+      (xy 57.15 58.42)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "cfc54db8-625d-5d64-b459-025f76550a05")
+  )
+  (wire
+    (pts
+      (xy 116.84 54.61)
+      (xy 116.84 58.42)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "dc73f951-7c81-55b8-a452-d79635993193")
+  )
+  (wire
+    (pts
+      (xy 116.84 58.42)
+      (xy 182.88 58.42)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "4c34d52e-fdc7-5f36-acdd-57e731b81634")
+  )
+  (wire
+    (pts
+      (xy 182.88 54.61)
+      (xy 182.88 58.42)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "08a4ce0a-907d-56a1-bea7-aa52a0fa61ab")
+  )
+  (junction
+    (at 116.84 58.42)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "c7bea882-f21f-51c2-a997-b152fdd0a91f")
+  )
+  (wire
+    (pts
+      (xy 57.15 58.42)
+      (xy 81.28 58.42)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "12c0218d-5fc4-5618-a665-ad414655db7d")
+  )
+  (wire
+    (pts
+      (xy 81.28 58.42)
+      (xy 116.84 58.42)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "22540d6b-fa75-5768-b27d-e289e596b877")
+  )
+  (wire
+    (pts
+      (xy 81.28 58.42)
+      (xy 81.28 66.04)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "7511f7b5-4b67-510d-84c9-e1fce67878d6")
+  )
+  (junction
+    (at 81.28 58.42)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "ede25ca1-62db-5db2-8e66-df4ba426ff69")
+  )
+  (global_label "N23"
+    (shape passive)
+    (at 81.28 66.04 0)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right)
+    )
+    (uuid "2c807462-1051-5a8e-9689-3a45535a5065")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 81.28 66.04 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 48.26 50.8)
+      (xy 72.39 50.8)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "3547437a-b0f3-50c3-8ab6-fa761ead0e4f")
+  )
+  (wire
+    (pts
+      (xy 48.26 50.8)
+      (xy 48.26 119.38)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "9aa5572a-9c8b-5ce9-b8e1-32009211af91")
+  )
+  (wire
+    (pts
+      (xy 48.26 119.38)
+      (xy 57.15 119.38)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "0e824e1c-d8ce-5c88-9014-b602f7a499e8")
+  )
+  (wire
+    (pts
+      (xy 57.15 119.38)
+      (xy 57.15 123.19)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "87cf4c5a-c9a7-5366-a319-36beabfd45e4")
+  )
+  (wire
+    (pts
+      (xy 57.15 123.19)
+      (xy 182.88 123.19)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "3a11f14a-5b71-598b-98df-16db3b067242")
+  )
+  (wire
+    (pts
+      (xy 72.39 50.8)
+      (xy 72.39 54.61)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "084d3f3a-3b56-5a37-96f3-a319453cf462")
+  )
+  (wire
+    (pts
+      (xy 182.88 119.38)
+      (xy 182.88 123.19)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "d914d36a-f44b-5f78-b20b-4bafd9dfc85c")
+  )
+  (wire
+    (pts
+      (xy 182.88 123.19)
+      (xy 237.49 123.19)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "62e403f9-813a-5808-92ba-8c3e29cd235b")
+  )
+  (wire
+    (pts
+      (xy 237.49 119.38)
+      (xy 237.49 123.19)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "d3b9e025-58de-5bd3-b447-734aab77a310")
+  )
+  (junction
+    (at 182.88 123.19)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "71cc5dad-0d00-5f31-8b42-8f8d096a8290")
+  )
+  (wire
+    (pts
+      (xy 48.26 50.8)
+      (xy 40.64 50.8)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "2792d270-a8bc-5dae-b0bb-a27be5dcb99c")
+  )
+  (junction
+    (at 48.26 50.8)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "19e3bf0f-3de5-5fce-bd2b-a81f9db061ac")
+  )
+  (global_label "N3"
+    (shape passive)
+    (at 40.64 50.8 0)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right)
+    )
+    (uuid "a7bf1f05-91c6-5c12-b21a-9803bb17abd3")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 40.64 50.8 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 132.08 50.8)
+      (xy 132.08 54.61)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "f3d8487b-c262-5121-9a69-090cc6d08dd3")
+  )
+  (wire
+    (pts
+      (xy 132.08 50.8)
+      (xy 140.97 50.8)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "20720b4c-0831-5c7c-9efd-d6ad770a7f5b")
+  )
+  (wire
+    (pts
+      (xy 132.08 119.38)
+      (xy 140.97 119.38)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "7d37df74-80d2-5917-9c4c-4d5da5e8c4c2")
+  )
+  (wire
+    (pts
+      (xy 140.97 50.8)
+      (xy 140.97 115.57)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "f28c2c1d-f4af-5f7f-b961-a6c97d6b349e")
+  )
+  (wire
+    (pts
+      (xy 140.97 115.57)
+      (xy 140.97 119.38)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "01618958-3694-5cfd-96b3-92bd86773863")
+  )
+  (wire
+    (pts
+      (xy 140.97 115.57)
+      (xy 198.12 115.57)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "76afeaf8-9ee6-5c92-a260-a5eea074f83d")
+  )
+  (wire
+    (pts
+      (xy 198.12 50.8)
+      (xy 198.12 54.61)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "00aafee0-0abd-52b0-9f97-9f299dd34cb0")
+  )
+  (wire
+    (pts
+      (xy 198.12 115.57)
+      (xy 198.12 119.38)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "3e3122de-e462-5ccd-9c54-1357f4b34947")
+  )
+  (wire
+    (pts
+      (xy 198.12 115.57)
+      (xy 252.73 115.57)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "eb8297c8-0b2e-5023-acd2-51f15552ec97")
+  )
+  (wire
+    (pts
+      (xy 252.73 115.57)
+      (xy 252.73 119.38)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "0b6b142d-0de2-5aca-b0d6-1a000462f83f")
+  )
+  (junction
+    (at 140.97 115.57)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "9f3e8c8f-39ec-56e9-b392-60c3eee840bd")
+  )
+  (junction
+    (at 140.97 50.8)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "cb4ea4dd-d509-5d5a-8cfa-725868ac539a")
+  )
+  (junction
+    (at 198.12 115.57)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "05cba770-e6c7-5012-bcaf-81891896767f")
+  )
+  (wire
+    (pts
+      (xy 140.97 50.8)
+      (xy 142.24 50.8)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "33129386-595f-505a-8cd7-5fa716d61599")
+  )
+  (wire
+    (pts
+      (xy 142.24 50.8)
+      (xy 198.12 50.8)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "514e1b14-dfea-5912-b6fd-c9cde0abae53")
+  )
+  (wire
+    (pts
+      (xy 142.24 50.8)
+      (xy 142.24 43.18)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "3e710025-0f9b-5899-9a68-3bc584f7bfee")
+  )
+  (junction
+    (at 142.24 50.8)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "8962d916-a40d-53fe-afc2-4c97a35a67be")
+  )
+  (global_label "N4"
+    (shape passive)
+    (at 142.24 43.18 0)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right)
+    )
+    (uuid "c57cf98c-dee1-520e-89e3-e657b490cbf5")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 142.24 43.18 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 72.39 119.38)
+      (xy 90.17 119.38)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "0be76a0b-f07d-50ed-8f33-5152eb0bced7")
+  )
+  (wire
+    (pts
+      (xy 90.17 119.38)
+      (xy 116.84 119.38)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "126e6041-f45f-5555-abc7-c6bb543ec21a")
+  )
+  (wire
+    (pts
+      (xy 90.17 119.38)
+      (xy 90.17 111.76)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "0da8a0f2-7dd2-5728-a723-689c92cea38f")
+  )
+  (junction
+    (at 90.17 119.38)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "c9c02bf4-25c6-50d8-a012-221554096d1d")
+  )
+  (global_label "N24"
+    (shape passive)
+    (at 90.17 111.76 0)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right)
+    )
+    (uuid "412450e2-3ca7-5675-a933-6e3bc11c0c98")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 90.17 111.76 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+  )
+  (text "SFP supply filtering"
+    (at 18 15 0)
+    (effects
+      (font
+        (size 2.5 2.5)
+      )
+      (justify left)
+    )
+    (uuid "64569829-aae8-5fbb-b8e2-800144b07848")
+  )
+  (text "N3: 3.3 V | N4: GND | N23: VCCR | N24: VCCT"
+    (at 18 170 0)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left)
+    )
+    (uuid "8ef9b820-8bcf-5c5b-a7f1-6dbff4413f8f")
+  )
+  (text "Dots join wires; undotted crossings are separate. N interfaces connect across sheets."
+    (at 18 192 0)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left)
+    )
+    (uuid "ac9537ea-3934-5331-9712-7d66b1f0e2f9")
+  )
+)

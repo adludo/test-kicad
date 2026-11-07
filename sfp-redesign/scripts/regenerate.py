@@ -143,7 +143,7 @@ for heading,zx,zy,zw,zh,refs,cols,pitch in zones:
             if old!=new: pname += ' ['+old+']'
             # Small passives expose polarity with pin names, not anonymous numbers.
             if n==2: pname='~'
-            symbolpins.append(f'(pin {typ} line (at {px} {py} {0 if left else 180}) (length 5.08) (name {q(pname)} {effects(.85)}) (number {q(new)} {effects(.85)}))')
+            symbolpins.append(f'(pin {typ} line (at {px} {py} {0 if left else 180}) (length 5.08) (name {q(pname)} {effects(1.27)}) (number {q(new)} {effects(1.27)}))')
             net=nodes.get((ref,old))
             # Each original pin must have either a net or an explicit no-connect.
             wx=x+px; wy=y-py; end=wx+(-3.81 if left else 3.81)
