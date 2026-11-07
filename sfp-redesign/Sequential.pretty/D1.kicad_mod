@@ -1,0 +1,430 @@
+(footprint "D1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "<b>SMA Surface Mount Diode</b>")
+	(property "Reference" "REF**"
+		(at 1.02235 2.0581 0)
+		(layer "F.SilkS")
+		(uuid "e601705f-f482-40ce-8dbd-d4797eb946ee")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "DIODE-SCHOTTKY-SMA"
+		(at -2.54 2.286 0)
+		(layer "F.Fab")
+		(uuid "b5e721d2-84da-4ed8-9cc6-47cd98b80610")
+		(effects
+			(font
+				(size 0.36576 0.36576)
+				(thickness 0.04064)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c0021a8-aa28-4893-976e-2f4f3de14a6e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "340856e3-2e48-42a9-8b90-8bf037d65adb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CLASS" "DIODE"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72ef0d27-9c8d-464a-a0b9-8c921a876a63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DATASHEET" "https://www.st.com/content/ccc/resource/technical/document/datasheet/b7/ac/e1/7d/2a/e9/4b/e8/CD00003166.pdf/files/CD00003166.pdf/jcr:content/translations/en.CD00003166.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b15f9a1e-7763-4eaf-8c42-6d665f54071d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DESCRIPTION" "DIODE SCHOTTKY 60V 2A SMA"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12b452d8-2fec-4e3e-a0a0-bb4be12db6f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LINK" "https://www.digikey.com/en/products/detail/stmicroelectronics/STPS2L60A/603486"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63c9ab69-9a41-400d-b98c-e6d72bf13da0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "STMicroelectronics"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7cc856b1-f5b0-4abf-8c6d-7c91054065f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURERPARTNUMBER" "STPS2L60A"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b82bcaf-fb0d-43d1-8ec4-1fc3c3f9ffa0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "POPULATED" "TRUE"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd39ad2a-3d30-46f9-9c14-84c27a755d99")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ROHSCERTIFICATE" "ROHS3 Compliant"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f3f61d17-a430-434d-b89a-ca2fd7b898c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SOURCE" "DIGIKEY"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a48970b-e510-4967-82ef-e26830d2f565")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SOURCEPARTNUMBER" "497-2461-1-ND"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "222c2635-c5a2-42f0-b908-354896b85c7e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -3.63025 -1.6)
+		(end 3.65725 -1.6)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4e769472-680f-426e-992f-c072adfc40d7")
+	)
+	(fp_line
+		(start -3.63025 1.146)
+		(end -3.63025 -1.6)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3c5c9a2e-09db-448b-b3c1-5b48dced73c3")
+	)
+	(fp_line
+		(start -3.63025 1.394)
+		(end -3.63025 1.146)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c926706c-28d7-4d56-be16-88d57fa0faeb")
+	)
+	(fp_line
+		(start -3.63025 1.6)
+		(end -3.63025 1.146)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e645e01d-263c-481e-9326-0281eaf2c1d7")
+	)
+	(fp_line
+		(start -0.508 -0.762)
+		(end -0.508 0)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "15319453-d07d-4163-ae00-49144dd1f0a5")
+	)
+	(fp_line
+		(start -0.508 0)
+		(end -0.508 0.762)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "74d049e0-2185-4bdd-80b5-ca153c4edd6c")
+	)
+	(fp_line
+		(start -0.508 0)
+		(end 0.254 -0.762)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9cdff64a-eb31-47c9-8da3-9f8dc1d538ae")
+	)
+	(fp_line
+		(start 0.254 -0.762)
+		(end 0.254 0.762)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fc0159a2-48cf-4c46-a7d6-c40cb962bbd4")
+	)
+	(fp_line
+		(start 0.254 0.762)
+		(end -0.508 0)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fb1da1bb-a195-450a-a471-701b1eac260e")
+	)
+	(fp_line
+		(start 3.65725 -1.6)
+		(end 3.65725 1.6)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "64c0ec59-f4ee-455d-be3f-93f27f16e445")
+	)
+	(fp_line
+		(start 3.65725 1.6)
+		(end -3.63025 1.6)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "64f67f3b-e547-452c-a2bd-014f8aa43051")
+	)
+	(fp_poly
+		(pts
+			(xy -1.251023 0) (xy -1.818713 0.94615) (xy -3.16865 0.94615) (xy -3.16865 -0.94615) (xy -1.818713 -0.94615)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "f07fb293-0bef-43d6-8bdd-677c96c74a9a")
+	)
+	(fp_poly
+		(pts
+			(xy 3.16865 0.94615) (xy 1.818713 0.94615) (xy 1.251023 0) (xy 1.818713 -0.94615) (xy 3.16865 -0.94615)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "d7936752-3020-4933-ab97-f6346a9208e4")
+	)
+	(fp_line
+		(start -2.15 -1.3)
+		(end 2.15 -1.3)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2283727c-0442-4733-a284-87a6b4d7a969")
+	)
+	(fp_line
+		(start -2.15 1.3)
+		(end -2.15 -1.3)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b0d9a29a-2bbb-4ccd-9aa3-219040f9f22f")
+	)
+	(fp_line
+		(start 2.15 -1.3)
+		(end 2.15 1.3)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2298ff9c-d784-43d8-98ed-5b76db44a420")
+	)
+	(fp_line
+		(start 2.15 1.3)
+		(end -2.15 1.3)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "046c2753-e12c-4c5a-bb84-4677d9f2ac80")
+	)
+	(fp_poly
+		(pts
+			(xy -2.825 0.75) (xy -2.175 0.75) (xy -2.175 -0.75) (xy -2.825 -0.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "6e59ece8-aeb9-4760-8b6d-137367797897")
+	)
+	(fp_poly
+		(pts
+			(xy -1.75 1.225) (xy -1.075 1.225) (xy -1.075 -1.225) (xy -1.75 -1.225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "47de96bc-1250-402b-9af6-c39576e924b4")
+	)
+	(fp_poly
+		(pts
+			(xy 2.175 0.75) (xy 2.825 0.75) (xy 2.825 -0.75) (xy 2.175 -0.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "feec5793-c28f-42e9-b7bf-f91c470b7241")
+	)
+	(fp_text user "K"
+		(at -3.75 3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1a648f3d-1e80-48db-b82a-d1c649c43893")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 2.2225 0)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(solder_paste_margin -0.0762)
+		(thermal_bridge_angle 0)
+		(uuid "d433b875-ce0b-4ba1-95c7-57715d0a8cac")
+	)
+	(pad "2" smd roundrect
+		(at -2.2225 0)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(solder_paste_margin -0.0762)
+		(thermal_bridge_angle 0)
+		(uuid "5184a15d-399b-4138-93fb-d5bee6e399b6")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/shabaz/Documents/KiCad/8.0/3dmodels/user_3d/Diode SMA.stp"
+		(offset
+			(xyz -2.7 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

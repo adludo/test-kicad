@@ -1,0 +1,1 @@
+(fp_lib_table (version 7) (lib (name "Sequential") (type "KiCad") (uri "${KIPRJMOD}/Sequential.pretty") (options "") (descr "Source geometry, sequential connection IDs")))

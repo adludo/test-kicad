@@ -1,0 +1,411 @@
+(footprint "J6"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "<b>694108106102</b><p>\n\nWR-DC_DC Power Jack_Right Angled_SMT Center Pin Ø2.5_Plug ID Ø2.55_Plug OD Ø5.5_with 4 Soldering Pad & Peg")
+	(property "Reference" "REF**"
+		(at 12.222721 9.408671 90)
+		(layer "F.SilkS")
+		(uuid "4e2f1408-308c-41d1-a9b7-c3dbc2a1001a")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "694108106102"
+		(at 0.69964 10.1134 0)
+		(layer "F.Fab")
+		(uuid "244b25e8-873e-4055-9994-e525cffe3ff5")
+		(effects
+			(font
+				(size 1.76784 1.76784)
+				(thickness 0.26416)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6bb2d6f3-a4c6-4696-89a3-7aaf040490ca")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "249e54c8-d8a7-40dd-956b-04e75af9c5ad")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CLASS" "CONNECTOR\\JUMPER"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60f11580-ad8d-4521-937c-0ed28cbc6ded")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DATASHEET" "https://www.cuidevices.com/product/resource/pj-002bh-smt-tr.pdf"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a75ad3fb-4ed6-47ee-89c9-55b0b5de4b90")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DESCRIPTION" "CONN PWR JACK 2.5X5.5MM SOLDER"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ac2bc8e-5a08-4d90-bc51-c7ed002ce9d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LINK" "https://www.digikey.com/product-detail/en/cui-devices/PJ-002BH-SMT-TR/CP-002BHPJCT-ND/669694"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c9feef4-9d4b-4f60-a382-dac52301be49")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "CUI Devices"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a17d56fc-6e71-4f99-b3c6-fca8f57b590b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURERPARTNUMBER" "PJ-002BH-SMT-TR"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64ab04e4-5ef5-4186-9be1-f1d09fe673a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "POPULATED" "TRUE"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9dfc68bd-b76d-4e30-bf93-97405e012dbd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ROHSCERTIFICATE" "RoHS Compliant"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec22abd6-9296-4668-82c8-e9b2fc0e44a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SOURCE" "DIGIKEY"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c45ca52-2be9-43c6-a273-ce5f7fe294c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SOURCEPARTNUMBER" "CP-002BHPJCT-ND"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e356fe37-3d60-47dc-85a4-34ba9a401841")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start 2.25 -4.5)
+		(end 3.5 -4.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "26830398-1020-4737-887f-b2b8e15faa7c")
+	)
+	(fp_line
+		(start 2.25 4.5)
+		(end 3.5 4.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a66c4fd2-0abc-4e1a-902a-3533c4b938bd")
+	)
+	(fp_line
+		(start 6.5 -4.5)
+		(end 9.75 -4.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1882a3b6-451e-499d-b74f-bc14e13231c6")
+	)
+	(fp_line
+		(start 6.5 4.5)
+		(end 9.75 4.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c7604396-b8cd-421b-bb29-26d124c9a6ef")
+	)
+	(fp_line
+		(start 12.5 -4.5)
+		(end 14.7 -4.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "878e87bd-22b8-4dbb-83a7-3ed4bd9a3c96")
+	)
+	(fp_line
+		(start 12.5 4.5)
+		(end 14.7 4.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5f8b5039-cbea-4976-a37f-01862e0eb275")
+	)
+	(fp_line
+		(start 14.7 4.5)
+		(end 14.7 -4.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aca8be14-f4ba-4bf2-a1b5-babb3c28b2d3")
+	)
+	(fp_line
+		(start -0.25 -6.75)
+		(end -0.25 6.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "378a6790-f465-4671-bb1b-97d3abad92f5")
+	)
+	(fp_line
+		(start -0.25 -6.75)
+		(end 14.95 -6.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "690d5e5a-1602-43e1-9a4c-c668dc5eb177")
+	)
+	(fp_line
+		(start -0.25 6.75)
+		(end 14.95 6.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5f416d69-0c49-43ec-a0f4-2dd7e44d075b")
+	)
+	(fp_line
+		(start 14.95 -6.75)
+		(end 14.95 6.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d2f23f12-fdac-41c6-a3c5-01f6f80417ad")
+	)
+	(fp_line
+		(start 0 4.31)
+		(end 0 -4.31)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d8c3a197-7b2b-4746-a716-415fedeba2d3")
+	)
+	(fp_line
+		(start 4 -4.5)
+		(end 6 -4.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "959a850f-11b2-42df-a0cb-c7b77798efaa")
+	)
+	(fp_line
+		(start 4 4.5)
+		(end 6 4.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1e1142cd-7cde-4293-862c-36915e4cc8a8")
+	)
+	(fp_line
+		(start 10.15 -4.5)
+		(end 12.15 -4.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5e0f9c60-7351-4c5b-9af3-e7dfd3ad34e8")
+	)
+	(fp_line
+		(start 10.15 4.5)
+		(end 12.15 4.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "38cad3c2-cf30-4687-805f-dd16fbc95dca")
+	)
+	(fp_text user "PCB Edge"
+		(at -1.01 2.94 90)
+		(layer "F.Fab")
+		(uuid "da340dab-887f-464b-a32a-4f380d6b6c00")
+		(effects
+			(font
+				(size 0.747776 0.747776)
+				(thickness 0.065024)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 5 0)
+		(size 1.6 1.6)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(uuid "43cce4f2-78f2-4872-9c95-54139f54e28b")
+	)
+	(pad "" np_thru_hole circle
+		(at 9.5 0)
+		(size 1.8 1.8)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(uuid "a51ffdfd-9488-4076-9f84-c969dfc3c51f")
+	)
+	(pad "1" smd roundrect
+		(at 11.15 -5.5)
+		(size 2.4 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_paste_margin -0.0762)
+		(thermal_bridge_angle 0)
+		(uuid "cdfb54ca-309b-4b5f-8cb8-475f613a6c33")
+	)
+	(pad "2" smd roundrect
+		(at 5 -5.5)
+		(size 2.4 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_paste_margin -0.0762)
+		(thermal_bridge_angle 0)
+		(uuid "296bdd9b-831b-41d2-852d-7c01a39e233d")
+	)
+	(pad "3" smd roundrect
+		(at 5 5.5)
+		(size 2.4 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_paste_margin -0.0762)
+		(thermal_bridge_angle 0)
+		(uuid "25a8b3c2-86de-494c-91b8-049a406f498f")
+	)
+	(pad "4" smd roundrect
+		(at 11.15 5.5)
+		(size 2.4 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_paste_margin -0.0762)
+		(thermal_bridge_angle 0)
+		(uuid "89f95dd9-30f2-483b-aadc-a981dc92dfdf")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/shabaz/Documents/KiCad/8.0/3dmodels/user_3d/CUI_DEVICES_PJ-002BH-SMT-TR.step"
+		(offset
+			(xyz 0 0 6.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)

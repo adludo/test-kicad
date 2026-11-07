@@ -1,0 +1,401 @@
+(footprint "C6"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "<b>TANTALUM CAPACITOR</b>")
+	(property "Reference" "REF**"
+		(at -7.00785 1.5614 0)
+		(layer "F.SilkS")
+		(uuid "cfb8944d-0378-43a0-9916-4e79a6a9e7d1")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "100u"
+		(at -2.54 3.175 0)
+		(layer "F.Fab")
+		(uuid "1717a333-255b-4e4d-9b50-3b0588535785")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ace035fd-c2e4-4003-ba8b-fcc319803faa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "156a1053-c49a-40d6-a8fe-2d0133e71db1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CLASS" "CAPACITOR"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a08b088-615f-4703-ad34-18652de3c8d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DATASHEET" "https://content.kemet.com/datasheets/KEM_T2076_T52X-530.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df12d180-2de1-4ad9-968c-06f135d6130e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DESCRIPTION" "CAP TANT POLY 100UF 6.3V 2312"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bab89477-f710-4aa7-93d4-cb5f0926b5e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LINK" "https://www.digikey.com/product-detail/en/kemet/T520C107M006ATE045/399-4658-1-ND/992091"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0bebd7f5-74bc-4b09-8ce7-d9a838538395")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "KEMET"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e9179506-7df8-4c97-8275-1492d9460389")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURERPARTNUMBER" "T520C107M006ATE045"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9990efad-7acd-4334-81bb-fc06debad076")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "POPULATED" "TRUE"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c09861f9-87fe-4492-9085-52bc4dfe2962")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ROHSCERTIFICATE" "ROHS3 Compliant"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5dd4b764-07ec-423c-b00a-6da39a16ec1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SOURCE" "DIGIKEY"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d901c33f-cfeb-413f-a795-383d45e07387")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SOURCEPARTNUMBER" "399-4658-1-ND"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "477d731e-f3af-47c7-99c8-9910d2a8c5da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -3.702 2.032)
+		(end -2.902 2.032)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7311f116-af96-477c-a4b5-8985ffb19a0b")
+	)
+	(fp_line
+		(start -3.302 1.632)
+		(end -3.302 2.432)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4d063853-fbda-460e-9a53-9e82cb178c21")
+	)
+	(fp_line
+		(start -2.921 -1.651)
+		(end 2.921 -1.651)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9bca0a3b-5dae-48fd-bd06-f4e480659231")
+	)
+	(fp_line
+		(start -2.921 1.651)
+		(end 2.921 1.651)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "304839c4-7cb8-4987-b3c0-473524232a80")
+	)
+	(fp_rect
+		(start -2.921 -1.651)
+		(end -1.778 -1.27)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "ea2b94b8-0010-4f01-bc4d-cd8d10a89325")
+	)
+	(fp_rect
+		(start -2.921 1.27)
+		(end -1.778 1.651)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "f4249e4d-c887-473e-b0ee-47563a6c96fa")
+	)
+	(fp_poly
+		(pts
+			(xy -0.5001 1) (xy 0.5001 1) (xy 0.5001 -1) (xy -0.5001 -1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Adhes")
+		(uuid "634eba7c-5b48-404c-b505-8072e499deab")
+	)
+	(fp_line
+		(start -4.473 -1.983)
+		(end 4.473 -1.983)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "66688fff-dfb6-40fd-807b-a91e3aa147ed")
+	)
+	(fp_line
+		(start -4.473 1.983)
+		(end -4.473 -1.983)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2226427a-66ad-46e1-94e3-966236f3c677")
+	)
+	(fp_line
+		(start 4.473 -1.983)
+		(end 4.473 1.983)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2da0a4d6-41ca-4c84-a027-ec3ab91e8418")
+	)
+	(fp_line
+		(start 4.473 1.983)
+		(end -4.473 1.983)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1ab1150f-0902-4e99-a636-1d5dd357b45a")
+	)
+	(fp_line
+		(start -3.073 -1.067)
+		(end -3.073 1.067)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "19ee5b60-6d08-4958-be60-c6235a986ae3")
+	)
+	(fp_line
+		(start -2.932 1.637)
+		(end -2.932 -1.637)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dcb7d291-51c0-48ea-8a5d-96b916d2b252")
+	)
+	(fp_line
+		(start -1.8 -0.63)
+		(end -1.8 0.64)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9272a131-f085-4e08-bb1e-30e03d641ac4")
+	)
+	(fp_line
+		(start -1.18 0)
+		(end -2.45 0)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "be597fe2-2955-4805-b2ae-9ec21d6f4262")
+	)
+	(fp_line
+		(start 2.957 -1.637)
+		(end -2.932 -1.637)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3939fa8d-5635-4cd8-b575-c7ec18c06a98")
+	)
+	(fp_line
+		(start 2.957 1.637)
+		(end -2.932 1.637)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d7e19a23-8737-4a3c-b76a-e9393dbd169c")
+	)
+	(fp_line
+		(start 2.957 1.637)
+		(end 2.957 -1.637)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bf3f4bca-112e-4d3e-ae37-ab86ffd7d504")
+	)
+	(fp_line
+		(start 3.073 -1.067)
+		(end 3.073 1.067)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3faaf872-926c-4546-a7ce-c38a6c7d66a3")
+	)
+	(pad "1" smd roundrect
+		(at -2.5 0)
+		(size 2.6 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.09236363636)
+		(solder_paste_margin -0.0762)
+		(thermal_bridge_angle 0)
+		(uuid "ffdc2623-7d33-4615-8c5f-eb6468011baf")
+	)
+	(pad "2" smd roundrect
+		(at 2.5 0)
+		(size 2.6 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.09236363636)
+		(solder_paste_margin -0.0762)
+		(thermal_bridge_angle 0)
+		(uuid "98331252-fc3d-43f2-a825-602de573c82e")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/shabaz/Documents/KiCad/8.0/3dmodels/user_3d/TANT C 6032-28.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)

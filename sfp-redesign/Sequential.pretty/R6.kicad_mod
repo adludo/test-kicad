@@ -1,0 +1,327 @@
+(footprint "R6"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "<b> 0402</b>")
+	(property "Reference" "REF**"
+		(at 1.0964 0.75735 0)
+		(layer "F.SilkS")
+		(uuid "fc8f6386-e432-47a5-a282-d785a7d1ac09")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "110R"
+		(at -1.27 1.3336 0)
+		(layer "F.Fab")
+		(uuid "3b14ba6c-c94f-48c0-b20a-1218b0960d9e")
+		(effects
+			(font
+				(size 0.4572 0.4572)
+				(thickness 0.0508)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "651187df-043a-46a5-835b-7d769c73cb22")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e03db3f8-be55-4da3-9ebb-789d9ec86f23")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CLASS" "RESISTOR"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2429845-71ea-4063-8a94-12f45729b96e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DATASHEET" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7e479f30-d8cc-4581-972d-569233cd363c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DESCRIPTION" "RES 110 OHM 1% 1/10W 0603"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "48379465-f069-456c-9fda-cd6e69d016ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LINK" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-13110RL/14286378"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c3e257a-241a-400c-af93-310dfcc58864")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "YAGEO"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "26fe1540-5d2e-4f89-88fb-d7cf47778857")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURERPARTNUMBER" "RC0603FR-13110RL"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b56c6ca-5a62-4fbe-a0ac-581260ffe941")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "POPULATED" "TRUE"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b567864b-4cee-4d13-b564-e99fbf22b90e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ROHSCERTIFICATE" "ROHS3 Compliant"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a25cfc88-5577-4daa-9f0e-137ce32fd410")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SOURCE" "DIGIKEY"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7fed7e2c-b327-412e-809c-29a46beab00b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SOURCEPARTNUMBER" "13-RC0603FR-13110RLCT-ND"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c807940-395c-4818-b14e-0a727643fab1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.0573 -0.5557)
+		(end 1.0573 -0.5557)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c547484d-45a9-442a-b21f-a019661a6a45")
+	)
+	(fp_line
+		(start -1.0573 0.5557)
+		(end -1.0573 -0.5557)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "73de0efc-d51c-4562-baa7-d4113c1a0c22")
+	)
+	(fp_line
+		(start 1.0573 -0.5557)
+		(end 1.0573 0.5556)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a4594e5-00ba-4ae4-9ad2-43482b583b0c")
+	)
+	(fp_line
+		(start 1.0573 0.5556)
+		(end -1.0573 0.5557)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "039bb488-b363-4778-9419-6ade8678fd79")
+	)
+	(fp_poly
+		(pts
+			(xy -0.0794 0.2381) (xy 0.0794 0.2381) (xy 0.0794 -0.2381) (xy -0.0794 -0.2381)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Adhes")
+		(uuid "e5f530cb-9b61-47d6-a0d0-56756d236a04")
+	)
+	(fp_poly
+		(pts
+			(xy -0.161807 0) (xy -0.362891 0.301625) (xy -0.777875 0.301625) (xy -0.777875 -0.301625) (xy -0.362891 -0.301625)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "23a015fc-9fa7-479a-97f5-5b0839334bbd")
+	)
+	(fp_poly
+		(pts
+			(xy 0.777875 0.301625) (xy 0.362891 0.301625) (xy 0.161807 0) (xy 0.362891 -0.301625) (xy 0.777875 -0.301625)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "068016d8-57ee-457a-9d79-133df16adc17")
+	)
+	(fp_line
+		(start -0.245 -0.174)
+		(end 0.245 -0.174)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d9e0802a-a756-4b29-8871-182448e5e804")
+	)
+	(fp_line
+		(start 0.245 0.174)
+		(end -0.245 0.174)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3bd51c6e-4a96-495e-83fb-9ff14c8688e7")
+	)
+	(fp_poly
+		(pts
+			(xy -0.5 0.25) (xy -0.25 0.25) (xy -0.25 -0.25) (xy -0.5 -0.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "fe7482d3-b256-4260-85c5-f51d7b8ac91b")
+	)
+	(fp_poly
+		(pts
+			(xy 0.25 0.25) (xy 0.5 0.25) (xy 0.5 -0.25) (xy 0.25 -0.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "92dc1905-b43a-4e7a-9aff-05e54dcff79b")
+	)
+	(pad "1" smd roundrect
+		(at -0.508 0)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.1693333333)
+		(solder_paste_margin -0.03)
+		(thermal_bridge_angle 0)
+		(uuid "218ed334-b9da-4c67-b834-d65c66661385")
+	)
+	(pad "2" smd roundrect
+		(at 0.508 0)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.1693333333)
+		(solder_paste_margin -0.03)
+		(thermal_bridge_angle 0)
+		(uuid "7780abb1-b976-4c71-abc1-86eeb808c6a8")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/shabaz/Documents/KiCad/8.0/3dmodels/user_3d/RES0402.STEP"
+		(offset
+			(xyz -0.5 -0.25 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
