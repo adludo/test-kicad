@@ -1,0 +1,339 @@
+(footprint "C17"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "<b>0603</b>")
+	(property "Reference" "REF**"
+		(at 1.9311 0.94615 0)
+		(layer "F.SilkS")
+		(uuid "a878cc53-3302-4270-95f7-cc3ad2683470")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "100p"
+		(at -1.5875 1.4923 0)
+		(layer "F.Fab")
+		(uuid "26b6fab2-53a1-4843-b747-5af40fc23b25")
+		(effects
+			(font
+				(size 0.4572 0.4572)
+				(thickness 0.0508)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f8f7517f-0b67-44a1-b5d2-16413b2a36db")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5cff3936-0a64-459d-b630-212ab3447321")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CLASS" "CAPACITOR"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8bd8b521-279b-4008-b3b4-5e5f6f5352c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DATASHEET" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d522363c-e9ba-4a48-8ffb-18e2ee5cf113")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DESCRIPTION" "CAP CER 100PF 50V C0G/NPO 0603"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a94c0a35-4a64-4ffc-a443-251d195224d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LINK" "https://www.digikey.com/product-detail/en/yageo/CC0603JRNPO9BN101/311-1069-1-ND/302979"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7db6131-0b40-42dd-94fb-721f66ead9a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "Yageo"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d0c8ba9-e5f9-4b05-952e-e79412430fae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURERPARTNUMBER" "CC0603JRNPO9BN101"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf813e49-e6ac-4b84-b79c-153a706ec02e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "POPULATED" "TRUE"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5480fac-b062-464e-bf33-3784e8ece979")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ROHSCERTIFICATE" "ROHS3 Compliant"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d059c012-46f1-4e41-8e7e-e1cd096a5cde")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SOURCE" "DIGIKEY"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56f38104-9b5a-41fe-86df-99bde3f95a5f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SOURCEPARTNUMBER" "311-1069-1-ND"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fad50eb3-6200-4910-bb9e-1b1a119766b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -0.2 -0.4)
+		(end 0.2 -0.4)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "48f5ca05-3db8-4040-8686-6025db1cfd69")
+	)
+	(fp_line
+		(start 0.2 0.4)
+		(end -0.2 0.4)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5efc897c-c9ce-4175-adae-0cc378791b9a")
+	)
+	(fp_poly
+		(pts
+			(xy -0.1999 0.4001) (xy 0.1999 0.4001) (xy 0.1999 -0.4001) (xy -0.1999 -0.4001)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Adhes")
+		(uuid "d247df38-32e1-41e2-8d94-94f3ef88d853")
+	)
+	(fp_poly
+		(pts
+			(xy -0.3175 0) (xy -0.60325 0.381) (xy -1.17475 0.381) (xy -1.17475 -0.381) (xy -0.60325 -0.381)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "4ab45056-67dd-4758-9d66-bf6b47f1858e")
+	)
+	(fp_poly
+		(pts
+			(xy 1.17475 0.381) (xy 0.60325 0.381) (xy 0.3175 0) (xy 0.60325 -0.381) (xy 1.17475 -0.381)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "50202744-b13e-4d4a-bf95-d67367823ec0")
+	)
+	(fp_line
+		(start -1.4605 0.635)
+		(end -1.4605 -0.635)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "152eb6e0-1afb-43ac-8777-12bf0d7fe7d0")
+	)
+	(fp_line
+		(start -0.432 0.306)
+		(end 0.432 0.306)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f55b5581-24f2-4f8e-a809-072aa5084878")
+	)
+	(fp_line
+		(start 0.432 -0.306)
+		(end -0.432 -0.306)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e554d58a-4626-49e9-acbf-bb4dc05ffccb")
+	)
+	(fp_line
+		(start 1.4605 -0.635)
+		(end 1.4605 0.635)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "40a4961b-151d-467c-ad3a-a510293cc6ac")
+	)
+	(fp_poly
+		(pts
+			(xy -0.8382 0.4) (xy -0.4318 0.4) (xy -0.4318 -0.4) (xy -0.8382 -0.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "1ebdb0c7-b3fe-471c-b6a7-b478cb4e9caa")
+	)
+	(fp_poly
+		(pts
+			(xy 0.4318 0.4) (xy 0.8382 0.4) (xy 0.8382 -0.4) (xy 0.4318 -0.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "4f672cfa-bd0c-49dc-9b3c-2e27d67a356a")
+	)
+	(pad "1" smd roundrect
+		(at -0.762 0)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(solder_paste_margin -0.04)
+		(thermal_bridge_angle 0)
+		(uuid "3b69b94d-db81-4a60-9d56-997e9da7df39")
+	)
+	(pad "2" smd roundrect
+		(at 0.762 0)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(solder_paste_margin -0.04)
+		(thermal_bridge_angle 0)
+		(uuid "62079a83-8bd8-4093-a5ed-c8a5396d7897")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/shabaz/Documents/KiCad/8.0/3dmodels/user_3d/Ceramic_Capacitor_0603_h32mil.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "C:/Users/shabaz/Documents/KiCad/8.0/3dmodels/user_3d/RES0603.STEP"
+		(hide yes)
+		(offset
+			(xyz -0.75 -0.4 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

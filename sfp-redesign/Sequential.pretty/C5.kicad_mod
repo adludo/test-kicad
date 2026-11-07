@@ -1,0 +1,339 @@
+(footprint "C5"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "<b>0603</b>")
+	(property "Reference" "REF**"
+		(at 4.13385 -0.7994 0)
+		(layer "F.SilkS")
+		(uuid "cf9ddcf2-a66e-4088-af78-ff598218499a")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "100n"
+		(at -1.5875 1.4923 0)
+		(layer "F.Fab")
+		(uuid "17a5eb83-9e26-4b67-b83d-2ddb1386921e")
+		(effects
+			(font
+				(size 0.4572 0.4572)
+				(thickness 0.0508)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0e1f8e0-166b-4c55-837e-3902f076804a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eef237c4-7c84-4678-96e9-e94539175701")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CLASS" "CAPACITOR"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2eea1556-4eb4-499e-bec9-5b85b31a71d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DATASHEET" "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8NNNC.jsp"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "69b7cab7-77f1-44f7-beb1-2fbe26ed0d29")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DESCRIPTION" "CAP CER 0.1UF 16V X7R 0603"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "032ab09e-70b6-4bb3-9b5d-10e1f14d0232")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LINK" "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KO8NNNC/1276-1005-1-ND/3889091"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed49fad5-cdc0-4e3f-9554-3dd2c34655b1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "Samsung Electro-Mechanics"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d6755f76-c4c4-4973-88c7-b62cabb15539")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURERPARTNUMBER" "CL10B104KO8NNNC"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47d10500-c364-48e8-8436-5eb4b5227bb0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "POPULATED" "TRUE"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e3c79e3-6c50-48f6-80df-d8c1046de7b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ROHSCERTIFICATE" "ROHS3 Compliant"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e9d82e7d-b163-40f8-8e71-e820b101394d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SOURCE" "DIGIKEY"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89b87929-60f4-43bb-8a83-f81a80efbe00")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SOURCEPARTNUMBER" "1276-1005-1-ND"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65d5dc0c-2949-4a6d-a19b-70df8b77a67d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -0.2 -0.4)
+		(end 0.2 -0.4)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a4864968-e922-4fee-ac2a-cd694919f2ed")
+	)
+	(fp_line
+		(start 0.2 0.4)
+		(end -0.2 0.4)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b90ab118-5602-430f-83e3-d1085fbd36ec")
+	)
+	(fp_poly
+		(pts
+			(xy -0.1999 0.4001) (xy 0.1999 0.4001) (xy 0.1999 -0.4001) (xy -0.1999 -0.4001)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Adhes")
+		(uuid "a564d0c6-5263-476f-8a18-93046c9e31b8")
+	)
+	(fp_poly
+		(pts
+			(xy -0.3175 0) (xy -0.60325 0.381) (xy -1.17475 0.381) (xy -1.17475 -0.381) (xy -0.60325 -0.381)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "89bebf71-f93a-45de-95f5-8c838bdb56af")
+	)
+	(fp_poly
+		(pts
+			(xy 1.17475 0.381) (xy 0.60325 0.381) (xy 0.3175 0) (xy 0.60325 -0.381) (xy 1.17475 -0.381)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "645f36c6-c284-4db1-9b51-78b6d28f96d1")
+	)
+	(fp_line
+		(start -1.4605 0.635)
+		(end -1.4605 -0.635)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cb699997-9118-476d-a109-0d333bad2e70")
+	)
+	(fp_line
+		(start -0.432 0.306)
+		(end 0.432 0.306)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2c19df42-2aaa-4858-9de6-e85b491b0763")
+	)
+	(fp_line
+		(start 0.432 -0.306)
+		(end -0.432 -0.306)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c16c5e1f-9bfd-44f0-9496-aed4745dd1c9")
+	)
+	(fp_line
+		(start 1.4605 -0.635)
+		(end 1.4605 0.635)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7f47f52d-8591-467a-8f58-26c2140230a4")
+	)
+	(fp_poly
+		(pts
+			(xy -0.8382 0.4) (xy -0.4318 0.4) (xy -0.4318 -0.4) (xy -0.8382 -0.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "297d2836-91c7-4632-a64b-b0477e3ebef9")
+	)
+	(fp_poly
+		(pts
+			(xy 0.4318 0.4) (xy 0.8382 0.4) (xy 0.8382 -0.4) (xy 0.4318 -0.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "daafe46f-34a6-4803-ae1e-ed5f78f115d0")
+	)
+	(pad "1" smd roundrect
+		(at -0.762 0)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(solder_paste_margin -0.04)
+		(thermal_bridge_angle 0)
+		(uuid "d9b886b8-23da-4e5b-b485-cadfee72b65c")
+	)
+	(pad "2" smd roundrect
+		(at 0.762 0)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(solder_paste_margin -0.04)
+		(thermal_bridge_angle 0)
+		(uuid "15facc28-205d-4a25-8f5f-9980dcee09f0")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/shabaz/Documents/KiCad/8.0/3dmodels/user_3d/Ceramic_Capacitor_0603_h32mil.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "C:/Users/shabaz/Documents/KiCad/8.0/3dmodels/user_3d/RES0603.STEP"
+		(hide yes)
+		(offset
+			(xyz -0.75 -0.4 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

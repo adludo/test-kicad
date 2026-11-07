@@ -1,0 +1,343 @@
+(footprint "L2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "<b> 0603 (1608 Metric)</b>")
+	(property "Reference" "REF**"
+		(at -2.21615 -0.9264 0)
+		(layer "F.SilkS")
+		(uuid "f323059e-60a6-497d-b461-fd8827cdb024")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "1nH"
+		(at -1.7145 1.7145 0)
+		(layer "F.Fab")
+		(uuid "6093960d-6ac8-4063-a6b8-e1aec7138c4a")
+		(effects
+			(font
+				(size 0.4572 0.4572)
+				(thickness 0.0508)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "03d6742b-eae4-437f-bb28-7e041a56aaf4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2a7fb3a-483d-4eca-bad2-397e8200b01b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CLASS" "INDUCTOR"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee45a497-cb5c-455e-90e4-ada55eefd4d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DATASHEET" "https://abracon.com/Magnetics/new/AIMC-0603.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70367892-b775-44ac-86f9-8fce6276638a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DESCRIPTION" "FIXED IND 1NH 500MA 50 MOHM SMD"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "319fe057-cb8c-4b63-9ae2-7d191f1f14d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LINK" "https://www.digikey.com/product-detail/en/abracon-llc/AIMC-0603-1N0S-T/535-11529-1-ND/2782759"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5aace81-858e-4a18-8047-85e010852bb1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "Abracon LLC"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1737eae9-06ff-4780-8971-9675cf41a655")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURERPARTNUMBER" "AIMC-0603-1N0S-T"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9fe996c2-bedb-4b97-adbd-93613db52505")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "POPULATED" "TRUE"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b77d6b3-326f-4ddf-b14d-d216b6c87a55")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ROHSCERTIFICATE" "RoHS Compliant"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f429642-36da-44ee-890b-3a462f698ed5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SOURCE" "DIGIKEY"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39241245-00ba-4e42-ab82-d3b96092414e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SOURCEPARTNUMBER" "535-11529-1-ND"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "205d14d9-0b40-4657-89c4-a3031dea6e58")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -0.2 -0.5)
+		(end 0.2 -0.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a88001b5-5604-43fe-945f-395104963080")
+	)
+	(fp_line
+		(start 0.2 0.5)
+		(end -0.2 0.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9a56c8f1-dbec-469c-9294-14b88584e84c")
+	)
+	(fp_poly
+		(pts
+			(xy -0.1999 0.3) (xy 0.1999 0.3) (xy 0.1999 -0.3) (xy -0.1999 -0.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Adhes")
+		(uuid "022b7ef7-c2eb-4fbf-942d-10e2ea0e88ed")
+	)
+	(fp_line
+		(start -1.473 -0.729)
+		(end 1.473 -0.729)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d502dc5d-7e00-4e85-be43-225dc7b6c9ae")
+	)
+	(fp_line
+		(start -1.473 0.729)
+		(end -1.473 -0.729)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e2ea0636-8761-4f3c-b7fd-886c8138f1cb")
+	)
+	(fp_line
+		(start 1.473 -0.729)
+		(end 1.473 0.729)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5b7127e4-a4fd-4832-ba02-cee42305a9f7")
+	)
+	(fp_line
+		(start 1.473 0.729)
+		(end -1.473 0.729)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "406fc2af-393c-4403-a994-e70227daaa12")
+	)
+	(fp_line
+		(start -1.6 0.7)
+		(end -1.6 -0.7)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d28b1d6a-99a5-43fe-b36e-bb9f5c2821f9")
+	)
+	(fp_line
+		(start -0.356 -0.432)
+		(end 0.356 -0.432)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d3cfa1da-e403-4bf3-8461-4ca405ffbaf0")
+	)
+	(fp_line
+		(start -0.356 0.419)
+		(end 0.356 0.419)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "79195c50-c590-4823-b101-18f2e2d96606")
+	)
+	(fp_line
+		(start 1.6 -0.7)
+		(end 1.6 0.7)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0a15943a-1722-43d8-9cfe-ea5da4e4686d")
+	)
+	(fp_poly
+		(pts
+			(xy -0.8382 0.4699) (xy -0.3381 0.4699) (xy -0.3381 -0.4801) (xy -0.8382 -0.4801)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "6e6accfe-3498-42ba-b686-30132bd83a69")
+	)
+	(fp_poly
+		(pts
+			(xy 0.3302 0.4699) (xy 0.8303 0.4699) (xy 0.8303 -0.4801) (xy 0.3302 -0.4801)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "8d73d537-7432-43ed-bb61-bd5bd3499b6d")
+	)
+	(pad "1" smd roundrect
+		(at -0.85 0)
+		(size 1.1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_paste_margin -0.05)
+		(thermal_bridge_angle 0)
+		(uuid "255bbf4e-eb62-4b20-87ac-b8bde9b45283")
+	)
+	(pad "2" smd roundrect
+		(at 0.85 0)
+		(size 1.1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_paste_margin -0.05)
+		(thermal_bridge_angle 0)
+		(uuid "a9ed965e-5d5f-4e80-9300-f13e150e4871")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/shabaz/Documents/KiCad/8.0/3dmodels/user_3d/L_0603.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

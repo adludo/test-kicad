@@ -1,0 +1,288 @@
+(footprint "LED2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "<b>Hyper CHIPLED Hyper-Bright LED</b><p>\nLB Q993<br>\nSource: http://www.osram.convergy.de/ ... Lb_q993.pdf")
+	(property "Reference" "REF**"
+		(at 0.57485 -2.1964 90)
+		(layer "F.SilkS")
+		(uuid "ad7c6266-7ccc-45db-abdc-70ee0506e5f9")
+		(effects
+			(font
+				(size 1 1.2)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "KPH-1608SGC"
+		(at 1.905 0.635 90)
+		(layer "F.Fab")
+		(uuid "77a7c7ac-750c-4cc6-bb46-bb13f4a78132")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0eb2edcf-85f9-4121-a801-63c226ef6161")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e526037-8ec3-4b60-90e1-e84c46564616")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CLASS" "LED"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f46ade2-01c3-48c7-9f38-7440b3435a2d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DESCRIPTION" "NO DESCRIPTION"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7652d303-5002-4a09-a1a3-26d31997ecf8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LINK" "UNKNOWN LINK"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4fbbbd70-7d29-421c-b462-723dae57d251")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "UNKNOWN MANUFACTURER"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5de38d2a-2dcf-4010-b172-d890e3fc5749")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURERPARTNUMBER" "UNKNOWN MANUFACTURER PART NUMBER"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c073f932-9ece-44c7-9848-bb077076a5b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "POPULATED" "TRUE"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d12cc90-f9dc-48c5-a420-363e1a0a306a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ROHSCERTIFICATE" "UNKNOWN ROHS CERTIFICATE"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "27b6ff1d-b4e1-48b5-bb12-73fd1baee20f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SOURCE" "UNKNOWN SOURCE"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "488ea72a-d8b0-4ac1-a938-a7ca1fffea47")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SOURCEPARTNUMBER" "UNKNOWN SOURCE PART NUMBER"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "181b78a8-fe4f-4b77-ba80-0d17db2784fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_poly
+		(pts
+			(xy -0.45 -0.1) (xy -0.3 -0.1) (xy -0.3 -0.3) (xy -0.45 -0.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "7e523ccd-3ef6-40c7-a687-abb17afcbe4c")
+	)
+	(fp_poly
+		(pts
+			(xy -0.15 -0.1) (xy 0.15 -0.1) (xy 0.15 -0.3) (xy -0.15 -0.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "34d2a795-0a4f-40ad-b263-b4d912f4102f")
+	)
+	(fp_poly
+		(pts
+			(xy 0.3 -0.1) (xy 0.45 -0.1) (xy 0.45 -0.3) (xy 0.3 -0.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "3ab093d2-b079-40ec-892a-46574e975d87")
+	)
+	(fp_line
+		(start -0.4 -0.45)
+		(end -0.4 0.45)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "549bef23-4dcd-446e-832d-516d0b22b1ce")
+	)
+	(fp_line
+		(start 0.4 -0.45)
+		(end 0.4 0.45)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "97dd8b4c-d424-43ca-a18f-5523c6a55570")
+	)
+	(fp_poly
+		(pts
+			(xy -0.45 -0.45) (xy 0.45 -0.45) (xy 0.45 -0.85) (xy -0.45 -0.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "dd3a32a9-fd7b-434f-badf-43b875ed3b05")
+	)
+	(fp_poly
+		(pts
+			(xy -0.45 0.85) (xy 0.45 0.85) (xy 0.45 0.45) (xy -0.45 0.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "43785ffc-b7aa-40da-9a42-fa4f595c1bcc")
+	)
+	(fp_text user "K"
+		(at -1.61465 -2.2959 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "34124e5c-e06c-4713-8295-94be6df69c8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0.75)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_paste_margin -0.04)
+		(thermal_bridge_angle 0)
+		(uuid "62bb154b-288c-4ebd-b35e-52b07af07931")
+	)
+	(pad "2" smd roundrect
+		(at 0 -0.75)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_paste_margin -0.04)
+		(thermal_bridge_angle 0)
+		(uuid "686a47bc-3f7d-4b09-a756-9eb28b74ff55")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/shabaz/Documents/KiCad/8.0/3dmodels/user_3d/0603 Chip SMD LED (1.6x0.8mm).STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)

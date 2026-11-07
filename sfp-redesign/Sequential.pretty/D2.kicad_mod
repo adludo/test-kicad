@@ -1,0 +1,430 @@
+(footprint "D2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "<b>SMA Surface Mount Diode</b>")
+	(property "Reference" "REF**"
+		(at 6.570578 1.106028 90)
+		(layer "F.SilkS")
+		(uuid "bf520cea-0e15-40da-bad5-8bac3bfd826d")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "DIODE-TVS-SMA"
+		(at -2.54 2.286 0)
+		(layer "F.Fab")
+		(uuid "afb97e76-3811-4064-a270-5ee8bd8bd3db")
+		(effects
+			(font
+				(size 0.36576 0.36576)
+				(thickness 0.04064)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "114b34c2-e18a-439b-85ce-1bbaee3f2454")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f236166e-5cdf-4f9b-8a11-d6c146fa3bdc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CLASS" "DIODE"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d620ad5-4f2e-4bff-b794-50a3c07dd251")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DATASHEET" "https://www.bourns.com/docs/Product-Datasheets/SMAJ.pdf"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a12401f-86da-41bf-9217-fd39d5b75797")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DESCRIPTION" "TVS DIODE 5VWM 9.2VC SMA"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af2fe8a0-d2ab-4d56-837f-d22428a77323")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LINK" "https://www.digikey.com/en/products/detail/bourns-inc/SMAJ5-0A/2254236"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d07ae0eb-796a-44df-8ee9-e32ef41bff63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "Bourns Inc."
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6440945e-595a-4059-abdc-54d4a2548b28")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURERPARTNUMBER" "SMAJ5.0A"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d57dfb2c-90ba-40b5-a533-ac389d13cdcf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "POPULATED" "TRUE"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10fb6df3-7656-43e0-abfa-a49bc96632ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ROHSCERTIFICATE" "ROHS3 Compliant"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b2847cb-f57d-40a6-b41c-4a69205e4e21")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SOURCE" "DIGIKEY"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd3837fc-4627-4a43-8c16-0e9b57301010")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SOURCEPARTNUMBER" "SMAJ5.0ABCT-ND"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92786f00-9994-437b-9386-96857806ed33")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -3.63025 -1.6)
+		(end 3.65725 -1.6)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "486f33b6-c805-4214-8e56-df7e35299d51")
+	)
+	(fp_line
+		(start -3.63025 1.146)
+		(end -3.63025 -1.6)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4066b327-659a-4a35-a95d-33ab13c373c3")
+	)
+	(fp_line
+		(start -3.63025 1.394)
+		(end -3.63025 1.146)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b632ebdc-6246-47ec-9a57-9be7600fede2")
+	)
+	(fp_line
+		(start -3.63025 1.6)
+		(end -3.63025 1.146)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e7a074d7-43ca-437a-80e5-d022091c2345")
+	)
+	(fp_line
+		(start -0.508 -0.762)
+		(end -0.508 0)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "79755e52-75c0-477f-9959-0c987b9c8f58")
+	)
+	(fp_line
+		(start -0.508 0)
+		(end -0.508 0.762)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "17e18c9e-97ae-4fc2-880f-e9237666a6fb")
+	)
+	(fp_line
+		(start -0.508 0)
+		(end 0.254 -0.762)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e97cd304-05e0-4398-b388-e5803eca1d58")
+	)
+	(fp_line
+		(start 0.254 -0.762)
+		(end 0.254 0.762)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a7840941-edf8-4cca-87dd-7ab6c754961a")
+	)
+	(fp_line
+		(start 0.254 0.762)
+		(end -0.508 0)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b81d76cf-49ab-4229-9d1e-72fa392926aa")
+	)
+	(fp_line
+		(start 3.65725 -1.6)
+		(end 3.65725 1.6)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fe71fcc9-b7da-4e85-a88c-728baf98386c")
+	)
+	(fp_line
+		(start 3.65725 1.6)
+		(end -3.63025 1.6)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "032c5212-96e4-4c83-87d0-62a496ab00cb")
+	)
+	(fp_poly
+		(pts
+			(xy -1.251023 0) (xy -1.818713 0.94615) (xy -3.16865 0.94615) (xy -3.16865 -0.94615) (xy -1.818713 -0.94615)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "217f765f-af62-4aa9-b041-a93e16262f6f")
+	)
+	(fp_poly
+		(pts
+			(xy 3.16865 0.94615) (xy 1.818713 0.94615) (xy 1.251023 0) (xy 1.818713 -0.94615) (xy 3.16865 -0.94615)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "d4af29c0-e91b-4911-93df-15bac12897c6")
+	)
+	(fp_line
+		(start -2.15 -1.3)
+		(end 2.15 -1.3)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "83b85f47-117d-415e-b6b5-15b2348e76ef")
+	)
+	(fp_line
+		(start -2.15 1.3)
+		(end -2.15 -1.3)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "83ec7e42-7060-4b46-acc4-602280b195a9")
+	)
+	(fp_line
+		(start 2.15 -1.3)
+		(end 2.15 1.3)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0009e534-fd02-4d02-b5d4-153b149ea1e7")
+	)
+	(fp_line
+		(start 2.15 1.3)
+		(end -2.15 1.3)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8aa78d75-55ed-44d0-be46-65b9ec0428c5")
+	)
+	(fp_poly
+		(pts
+			(xy -2.825 0.75) (xy -2.175 0.75) (xy -2.175 -0.75) (xy -2.825 -0.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "b705e04a-426d-41eb-b994-ca199292282a")
+	)
+	(fp_poly
+		(pts
+			(xy -1.75 1.225) (xy -1.075 1.225) (xy -1.075 -1.225) (xy -1.75 -1.225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "066c4d0a-39ac-4e40-abe0-0fae259f9351")
+	)
+	(fp_poly
+		(pts
+			(xy 2.175 0.75) (xy 2.825 0.75) (xy 2.825 -0.75) (xy 2.175 -0.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "3647ff07-724f-4eaf-a4b6-f9ff2968eaa4")
+	)
+	(fp_text user "K"
+		(at -3.75 3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bd09a2a5-6c48-4d13-a278-86987cd49a4a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 2.2225 0)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(solder_paste_margin -0.0762)
+		(thermal_bridge_angle 0)
+		(uuid "7b681ec0-71a7-453a-9973-b30e4c49ce8d")
+	)
+	(pad "2" smd roundrect
+		(at -2.2225 0)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(solder_paste_margin -0.0762)
+		(thermal_bridge_angle 0)
+		(uuid "b1d2b8a4-7fc1-4883-9696-7b7639c04865")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/shabaz/Documents/KiCad/8.0/3dmodels/user_3d/Diode SMA.stp"
+		(offset
+			(xyz -2.7 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

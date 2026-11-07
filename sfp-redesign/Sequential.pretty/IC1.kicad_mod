@@ -1,0 +1,415 @@
+(footprint "IC1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SOT23-5")
+	(property "Reference" "REF**"
+		(at 4.45135 -0.7994 0)
+		(layer "F.SilkS")
+		(uuid "d1f83646-fc18-4754-8f90-7dc0789554fd")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "SN65LVDS1DBV"
+		(at -1.905 3.429 0)
+		(layer "F.Fab")
+		(uuid "fdd1e70c-d8e0-4a7b-a9a0-7b250cdc58c1")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f08093cc-a553-49c2-9e75-0bfc5274151b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bfc02c23-4f71-4740-9739-69455b53a794")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CLASS" "IC"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed19d90b-7450-4b16-9f16-7a46358e42f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DATASHEET" "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn65lvds1"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78858a92-7e42-4bd7-9ab3-fe6e45cc32e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DESCRIPTION" "IC DRIVER 1/0 SOT23-5"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eaf728a7-6918-4c6a-98e2-fff11a2fb535")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LINK" "https://www.digikey.com/product-detail/en/texas-instruments/SN65LVDS1DBVR/296-6919-1-ND/371647"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8c137308-c2c8-4c21-9719-fb267c61ea1f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "Texas Instruments"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "acfe7efa-2d16-483f-9807-86c3d4f00004")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURERPARTNUMBER" "SN65LVDS1DBVR"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e7441bc-0a90-4bff-bcb6-e1da5c450fcc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "POPULATED" "TRUE"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6e6f494-0ded-4e6e-ae40-1c4ea038db6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ROHSCERTIFICATE" "ROHS3 Compliant"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "debe020e-0730-4792-89b0-9e488dda0b71")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SOURCE" "DIGIKEY"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d180484-cf2e-4c45-bed9-a12e3870cecf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SOURCEPARTNUMBER" "296-6919-1-ND"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9816d096-10e6-495c-9979-e066200a65fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.422 -0.81)
+		(end -1.328 -0.81)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "552d4c6d-5151-440e-8fcd-3052781264aa")
+	)
+	(fp_line
+		(start -1.422 0.81)
+		(end -1.422 -0.81)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6e901745-9761-43fd-9d61-2ecbc5154a9c")
+	)
+	(fp_line
+		(start -1.328 0.81)
+		(end -1.422 0.81)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7f0c4928-3450-40f8-a424-413db98b73bc")
+	)
+	(fp_line
+		(start -0.522 -0.81)
+		(end 0.522 -0.81)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "58355f26-f6ca-4efe-b15c-7de8dd981bbd")
+	)
+	(fp_line
+		(start -0.428 0.81)
+		(end -0.522 0.81)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4ceb925f-8254-46a8-a120-8dc64d1611ee")
+	)
+	(fp_line
+		(start 0.522 0.81)
+		(end 0.428 0.81)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "87c75c07-7bd1-4f93-a7a8-0580b25117cd")
+	)
+	(fp_line
+		(start 1.328 -0.81)
+		(end 1.422 -0.81)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c1b6424d-c257-4d6a-9fe0-e240e26baf58")
+	)
+	(fp_line
+		(start 1.422 -0.81)
+		(end 1.422 0.81)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "20c2dc8d-5517-41a8-a466-9bbcc1036aff")
+	)
+	(fp_line
+		(start 1.422 0.81)
+		(end 1.328 0.81)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5ef4d89e-665a-4907-bd0c-97882d7d6a75")
+	)
+	(fp_line
+		(start -1.422 -0.81)
+		(end 1.422 -0.81)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "60099e7b-132a-4e14-b4d9-15b817a85437")
+	)
+	(fp_line
+		(start 1.422 0.81)
+		(end -1.422 0.81)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "facf924b-4c99-4fb0-a025-b428800de719")
+	)
+	(fp_circle
+		(center -1.71 0.5)
+		(end -1.6032 0.5)
+		(stroke
+			(width 0.2136)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "558866cc-c00f-4ee1-beea-63a92e38db42")
+	)
+	(fp_poly
+		(pts
+			(xy -1.2 -0.85) (xy -0.7 -0.85) (xy -0.7 -1.5) (xy -1.2 -1.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "037cccff-1036-47f7-811f-6f8a1bbdca2a")
+	)
+	(fp_poly
+		(pts
+			(xy -1.2 1.5) (xy -0.7 1.5) (xy -0.7 0.85) (xy -1.2 0.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "978803f6-5c5b-4b36-a25f-77878ea0f336")
+	)
+	(fp_poly
+		(pts
+			(xy -0.25 1.5) (xy 0.25 1.5) (xy 0.25 0.85) (xy -0.25 0.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "51983f55-9b19-46bc-8de9-53de7cc0b54d")
+	)
+	(fp_poly
+		(pts
+			(xy 0.7 -0.85) (xy 1.2 -0.85) (xy 1.2 -1.5) (xy 0.7 -1.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "4c46a431-d4de-4899-9906-b6bf3188790c")
+	)
+	(fp_poly
+		(pts
+			(xy 0.7 1.5) (xy 1.2 1.5) (xy 1.2 0.85) (xy 0.7 0.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "0c3c4801-708e-4062-b808-848f6ebdc7b0")
+	)
+	(pad "1" smd roundrect
+		(at -0.95 1.35)
+		(size 0.55 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_paste_margin -0.0275)
+		(thermal_bridge_angle 0)
+		(uuid "aff5a5d1-b73c-40b2-8119-79e286cf146d")
+	)
+	(pad "2" smd roundrect
+		(at 0 1.3)
+		(size 0.55 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_paste_margin -0.0275)
+		(thermal_bridge_angle 0)
+		(uuid "fafd244c-5d6b-413e-ba1e-e0effd82b9eb")
+	)
+	(pad "3" smd roundrect
+		(at 0.95 1.3)
+		(size 0.55 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_paste_margin -0.0275)
+		(thermal_bridge_angle 0)
+		(uuid "31183aa5-5973-48c2-9efc-b26dc23ec674")
+	)
+	(pad "4" smd roundrect
+		(at 0.95 -1.3)
+		(size 0.55 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_paste_margin -0.0275)
+		(thermal_bridge_angle 0)
+		(uuid "fa7046f6-02af-4dc8-b000-ffd2b97bc58d")
+	)
+	(pad "5" smd roundrect
+		(at -0.95 -1.3)
+		(size 0.55 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_paste_margin -0.0275)
+		(thermal_bridge_angle 0)
+		(uuid "597ea48c-1057-4686-ae61-5c95b70d7660")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/shabaz/Documents/KiCad/8.0/3dmodels/user_3d/sot23-5_p0-95_l3-0_w1-7.stp"
+		(offset
+			(xyz 0 0 0.15)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

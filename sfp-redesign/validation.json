@@ -1,0 +1,13 @@
+{
+  "board_components": 54,
+  "schematic_only_shield_annotations": 1,
+  "pins": 162,
+  "nets": 25,
+  "footprints_with_verified_pad_geometry": 54,
+  "connectivity": "identical after documented inverse remap",
+  "numbering": "all symbols contiguous, unique 1..N; nets N1..N25",
+  "balance": "all symbols have opposite-side counts differing by at most one",
+  "erc_errors": 4,
+  "erc_warnings": 0,
+  "erc_errors_inherited_from_source": true
+}
