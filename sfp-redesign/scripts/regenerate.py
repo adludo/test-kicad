@@ -183,3 +183,6 @@ with (ROOT/'pin-map.csv').open('w') as f:
 with (ROOT/'net-map.csv').open('w') as f:
     w=csv.writer(f);w.writerow(['new_net','original_net']);w.writerows((netmap[n.get('name')],n.get('name')) for n in nets)
 print(f'Rebuilt {len(components)-1} board components, 1 shield annotation, {len(rows)} pins, {len(nets)} nets')
+
+# Always refresh the companion explicitly wired mapping as part of regeneration.
+subprocess.run(['/usr/bin/python3',str(ROOT/'scripts/connected.py')],check=True)

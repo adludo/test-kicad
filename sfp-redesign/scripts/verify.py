@@ -124,3 +124,41 @@ for fp in source.GetFootprints():
 summary={'board_components':len(ac),'schematic_only_shield_annotations':1,'pins':len(maps),'nets':len(netmap),'footprints_with_verified_pad_geometry':count,'connectivity':'identical after documented inverse remap','numbering':'all symbols contiguous, unique 1..N; nets N1..N25','balance':'all symbols have opposite-side counts differing by at most one','erc_errors':4,'erc_warnings':0,'erc_errors_inherited_from_source':True}
 (ROOT/'validation.json').write_text(json.dumps(summary,indent=2)+'\n')
 print(json.dumps(summary,indent=2))
+
+# The all-components view must work electrically even without any net labels.
+with tempfile.TemporaryDirectory() as tmp:
+    tmp=Path(tmp)
+    connected=export(ROOT/'sfp-connected.kicad_sch',tmp/'connected.xml')
+    assert edges(a)==edges(connected,True),'Connected view changes source connectivity'
+    assert inventory(connected)==set(new_to_old),'Connected view omits pins'
+    text=(ROOT/'sfp-connected.kicad_sch').read_text()
+    spans=[]
+    for match in re.finditer(r'\(label\b',text):
+        depth=0
+        for token in re.finditer(r'"(?:\\.|[^"\\])*"|[()]',text[match.start():]):
+            if token.group()=='(':depth+=1
+            elif token.group()==')':depth-=1
+            if depth==0:
+                spans.append((match.start(),match.start()+token.end()));break
+    assert len(spans)==25
+    for start,end in reversed(spans):text=text[:start]+text[end:]
+    unlabeled=tmp/'unlabeled.kicad_sch';unlabeled.write_text(text)
+    wired=export(unlabeled,tmp/'unlabeled.xml')
+    def groups(root):
+        return {frozenset((n.get('ref'),n.get('pin')) for n in net.findall('node')) for net in root.findall('./nets/net')}
+    assert groups(connected)==groups(wired),'Labels conceal missing wires'
+    cats,t=erc(ROOT/'sfp-connected.kicad_sch',tmp/'connected.rpt')
+    assert cats==['power_pin_not_driven']*4,cats
+    assert power_nets(t,connected,True)==power_nets(oldt,a)
+    (ROOT/'connected-erc-report.rpt').write_text(t)
+    cs=parse((ROOT/'sfp-connected.kicad_sch').read_text())
+    def refs(tree):
+        return {next(p[2] for p in children(s,'property') if p[1]=='Reference') for s in children(tree,'symbol')}
+    assert child(cs,'lib_symbols')==child(sch,'lib_symbols'),'Connected view changes symbols/numbering/balance'
+    assert refs(cs)==refs(sch),'Connected view omits components/annotations'
+    assert len(children(cs,'sheet'))==0,'Connected view must be single sheet'
+    summary['connected_view']='all 54 components plus shield, all 25 nets physically wired; identical netlist with labels removed'
+    summary['connected_view_erc_errors']=4
+    summary['connected_view_erc_warnings']=0
+    (ROOT/'validation.json').write_text(json.dumps(summary,indent=2)+'\n')
+    print('Connected mapping verified with labels present and removed.')
